@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HuffPuffAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HuffPuffAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* HuffPuffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HuffPuffViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* HuffPuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HuffPuffViewController.m */; };
+		2C19FF6513167175009A5D43 /* HuffPuffArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C19FF6413167175009A5D43 /* HuffPuffArrow.m */; };
+		2C206F8F1315808500937B56 /* breath-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8A1315808500937B56 /* breath-bar.png */; };
+		2C206F901315808500937B56 /* direction-arorw-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8B1315808500937B56 /* direction-arorw-selected.png */; };
+		2C206F911315808500937B56 /* direction-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8C1315808500937B56 /* direction-arrow.png */; };
+		2C206F921315808500937B56 /* direction-degree.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8D1315808500937B56 /* direction-degree.png */; };
+		2C206F931315808500937B56 /* windblow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8E1315808500937B56 /* windblow.png */; };
+		2C206FA913158BA300937B56 /* HuffPuffWind.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C206FA813158BA300937B56 /* HuffPuffWind.m */; };
+		2C265A301314021A0019936E /* libObjectiveChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C265A2F1314021A0019936E /* libObjectiveChipmunk-iPhone.a */; };
+		2C265A7A131402810019936E /* libObjectiveChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C265A78131402810019936E /* libObjectiveChipmunk-iPhone.a */; };
+		2C69E79D1312489D00C15FF7 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69E79C1312489D00C15FF7 /* GameController.m */; };
+		2C8E6F2612F55ED20035064D /* UIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E6F2512F55ED20035064D /* UIImageExtension.m */; };
+		2C8E709812F581BF0035064D /* HuffPuffModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E709712F581BF0035064D /* HuffPuffModel.m */; };
+		2CA78634131410310022A258 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA78633131410310022A258 /* QuartzCore.framework */; };
+		2CC8A87712F4050E00C4417D /* HuffPuffStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8A87612F4050E00C4417D /* HuffPuffStorage.m */; };
+		2CD010681316EC85002F253C /* HuffPuffPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD010671316EC85002F253C /* HuffPuffPower.m */; };
+		2CDC60E212F1EBE600BD9826 /* block1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60D812F1EBE600BD9826 /* block1.png */; };
+		2CDC60E312F1EBE600BD9826 /* block2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60D912F1EBE600BD9826 /* block2.png */; };
+		2CDC60E412F1EBE600BD9826 /* block3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60DA12F1EBE600BD9826 /* block3.png */; };
+		2CDC60E512F1EBE600BD9826 /* block4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60DB12F1EBE600BD9826 /* block4.png */; };
+		2CDC60E612F1EBE600BD9826 /* iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60DC12F1EBE600BD9826 /* iron.png */; };
+		2CDC60E712F1EBE600BD9826 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60DD12F1EBE600BD9826 /* pig.png */; };
+		2CDC60E812F1EBE600BD9826 /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60DE12F1EBE600BD9826 /* stone.png */; };
+		2CDC60E912F1EBE600BD9826 /* straw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60DF12F1EBE600BD9826 /* straw.png */; };
+		2CDC60EA12F1EBE600BD9826 /* wolfs.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60E012F1EBE600BD9826 /* wolfs.png */; };
+		2CDC60EB12F1EBE600BD9826 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC60E112F1EBE600BD9826 /* wood.png */; };
+		2CDC631612F34E3200BD9826 /* HuffPuffBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC631512F34E3200BD9826 /* HuffPuffBlock.m */; };
+		2CDC631D12F34E9A00BD9826 /* HuffPuffPig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC631A12F34E9A00BD9826 /* HuffPuffPig.m */; };
+		2CDC631E12F34E9A00BD9826 /* HuffPuffWolf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC631B12F34E9A00BD9826 /* HuffPuffWolf.m */; };
+		2CDC635812F352FA00BD9826 /* HuffPuffGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC635712F352FA00BD9826 /* HuffPuffGameObject.m */; };
+		2CE6A69312F1C2E2001EC24F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6A69112F1C2E2001EC24F /* background.png */; };
+		2CE6A69412F1C2E2001EC24F /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6A69212F1C2E2001EC24F /* ground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HuffPuffAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HuffPuffAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PS3Re.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS3Re.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* HuffPuffViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuffPuffViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* HuffPuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* HuffPuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C19FF6313167175009A5D43 /* HuffPuffArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffArrow.h; sourceTree = "<group>"; };
+		2C19FF6413167175009A5D43 /* HuffPuffArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffArrow.m; sourceTree = "<group>"; };
+		2C206F8A1315808500937B56 /* breath-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "breath-bar.png"; sourceTree = "<group>"; };
+		2C206F8B1315808500937B56 /* direction-arorw-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "direction-arorw-selected.png"; sourceTree = "<group>"; };
+		2C206F8C1315808500937B56 /* direction-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "direction-arrow.png"; sourceTree = "<group>"; };
+		2C206F8D1315808500937B56 /* direction-degree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "direction-degree.png"; sourceTree = "<group>"; };
+		2C206F8E1315808500937B56 /* windblow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windblow.png; sourceTree = "<group>"; };
+		2C206FA713158BA300937B56 /* HuffPuffWind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffWind.h; sourceTree = "<group>"; };
+		2C206FA813158BA300937B56 /* HuffPuffWind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffWind.m; sourceTree = "<group>"; };
+		2C265A2F1314021A0019936E /* libObjectiveChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libObjectiveChipmunk-iPhone.a"; path = "/Users/angadsg/Documents/Chipmunk-5.3.4/Objective-Chipmunk/Objective-Chipmunk/Objective-Chipmunk-simulator/libObjectiveChipmunk-iPhone.a"; sourceTree = "<absolute>"; };
+		2C265A55131402810019936E /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		2C265A56131402810019936E /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		2C265A57131402810019936E /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		2C265A58131402810019936E /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		2C265A59131402810019936E /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		2C265A5B131402810019936E /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		2C265A5C131402810019936E /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		2C265A5D131402810019936E /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		2C265A5E131402810019936E /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		2C265A5F131402810019936E /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		2C265A60131402810019936E /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		2C265A61131402810019936E /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		2C265A62131402810019936E /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		2C265A63131402810019936E /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		2C265A64131402810019936E /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		2C265A65131402810019936E /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		2C265A66131402810019936E /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		2C265A67131402810019936E /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		2C265A68131402810019936E /* cpArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArray.h; sourceTree = "<group>"; };
+		2C265A69131402810019936E /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		2C265A6A131402810019936E /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		2C265A6B131402810019936E /* cpCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpCollision.h; sourceTree = "<group>"; };
+		2C265A6C131402810019936E /* cpHashSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpHashSet.h; sourceTree = "<group>"; };
+		2C265A6D131402810019936E /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		2C265A6E131402810019936E /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		2C265A6F131402810019936E /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		2C265A70131402810019936E /* cpSpaceHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpaceHash.h; sourceTree = "<group>"; };
+		2C265A71131402810019936E /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		2C265A72131402810019936E /* ChipmunkBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkBody.h; sourceTree = "<group>"; };
+		2C265A73131402810019936E /* ChipmunkConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkConstraint.h; sourceTree = "<group>"; };
+		2C265A74131402810019936E /* ChipmunkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkExtras.h; sourceTree = "<group>"; };
+		2C265A75131402810019936E /* ChipmunkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkObject.h; sourceTree = "<group>"; };
+		2C265A76131402810019936E /* ChipmunkShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkShape.h; sourceTree = "<group>"; };
+		2C265A77131402810019936E /* ChipmunkSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkSpace.h; sourceTree = "<group>"; };
+		2C265A78131402810019936E /* libObjectiveChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libObjectiveChipmunk-iPhone.a"; sourceTree = "<group>"; };
+		2C265A79131402810019936E /* ObjectiveChipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveChipmunk.h; sourceTree = "<group>"; };
+		2C69E79B1312489D00C15FF7 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		2C69E79C1312489D00C15FF7 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		2C8E6F2412F55ED20035064D /* UIImageExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtension.h; sourceTree = "<group>"; };
+		2C8E6F2512F55ED20035064D /* UIImageExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtension.m; sourceTree = "<group>"; };
+		2C8E709612F581BF0035064D /* HuffPuffModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffModel.h; sourceTree = "<group>"; };
+		2C8E709712F581BF0035064D /* HuffPuffModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffModel.m; sourceTree = "<group>"; };
+		2CA78633131410310022A258 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2CC8A87512F4050E00C4417D /* HuffPuffStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffStorage.h; sourceTree = "<group>"; };
+		2CC8A87612F4050E00C4417D /* HuffPuffStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffStorage.m; sourceTree = "<group>"; };
+		2CD010661316EC85002F253C /* HuffPuffPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffPower.h; sourceTree = "<group>"; };
+		2CD010671316EC85002F253C /* HuffPuffPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffPower.m; sourceTree = "<group>"; };
+		2CDC60D812F1EBE600BD9826 /* block1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block1.png; sourceTree = "<group>"; };
+		2CDC60D912F1EBE600BD9826 /* block2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block2.png; sourceTree = "<group>"; };
+		2CDC60DA12F1EBE600BD9826 /* block3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block3.png; sourceTree = "<group>"; };
+		2CDC60DB12F1EBE600BD9826 /* block4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block4.png; sourceTree = "<group>"; };
+		2CDC60DC12F1EBE600BD9826 /* iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iron.png; sourceTree = "<group>"; };
+		2CDC60DD12F1EBE600BD9826 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+		2CDC60DE12F1EBE600BD9826 /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		2CDC60DF12F1EBE600BD9826 /* straw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = straw.png; sourceTree = "<group>"; };
+		2CDC60E012F1EBE600BD9826 /* wolfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wolfs.png; sourceTree = "<group>"; };
+		2CDC60E112F1EBE600BD9826 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		2CDC631512F34E3200BD9826 /* HuffPuffBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffBlock.m; sourceTree = "<group>"; };
+		2CDC631712F34E7800BD9826 /* HuffPuffGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffGameObject.h; sourceTree = "<group>"; };
+		2CDC631A12F34E9A00BD9826 /* HuffPuffPig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffPig.m; sourceTree = "<group>"; };
+		2CDC631B12F34E9A00BD9826 /* HuffPuffWolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffWolf.m; sourceTree = "<group>"; };
+		2CDC635712F352FA00BD9826 /* HuffPuffGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffGameObject.m; sourceTree = "<group>"; };
+		2CDC636712F353BA00BD9826 /* HuffPuffBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffBlock.h; sourceTree = "<group>"; };
+		2CDC636812F353BA00BD9826 /* HuffPuffPig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffPig.h; sourceTree = "<group>"; };
+		2CDC636912F353BA00BD9826 /* HuffPuffWolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffWolf.h; sourceTree = "<group>"; };
+		2CE6A69112F1C2E2001EC24F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2CE6A69212F1C2E2001EC24F /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PS3Re_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PS3Re_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PS3Re-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PS3Re-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				2C265A301314021A0019936E /* libObjectiveChipmunk-iPhone.a in Frameworks */,
+				2C265A7A131402810019936E /* libObjectiveChipmunk-iPhone.a in Frameworks */,
+				2CA78634131410310022A258 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C265A521314025B0019936E /* ObjectiveChipmunk */,
+				2CDC60FA12F2A60900BD9826 /* Model */,
+				2CDC60F912F2A60200BD9826 /* View */,
+				2CDC60FB12F2A60E00BD9826 /* Controller */,
+				2C8E703D12F5768E0035064D /* Extension */,
+				1D3623240D0F684500981E51 /* HuffPuffAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HuffPuffAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PS3Re.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2CE6A68E12F1C268001EC24F /* Game Art */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PS3Re_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* HuffPuffViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PS3Re-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				2C265A2F1314021A0019936E /* libObjectiveChipmunk-iPhone.a */,
+				2CA78633131410310022A258 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C265A521314025B0019936E /* ObjectiveChipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				2C265A53131402810019936E /* Objective-Chipmunk-simulator */,
+			);
+			name = ObjectiveChipmunk;
+			sourceTree = "<group>";
+		};
+		2C265A53131402810019936E /* Objective-Chipmunk-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				2C265A54131402810019936E /* chipmunk */,
+				2C265A72131402810019936E /* ChipmunkBody.h */,
+				2C265A73131402810019936E /* ChipmunkConstraint.h */,
+				2C265A74131402810019936E /* ChipmunkExtras.h */,
+				2C265A75131402810019936E /* ChipmunkObject.h */,
+				2C265A76131402810019936E /* ChipmunkShape.h */,
+				2C265A77131402810019936E /* ChipmunkSpace.h */,
+				2C265A78131402810019936E /* libObjectiveChipmunk-iPhone.a */,
+				2C265A79131402810019936E /* ObjectiveChipmunk.h */,
+			);
+			path = "Objective-Chipmunk-simulator";
+			sourceTree = "<group>";
+		};
+		2C265A54131402810019936E /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				2C265A55131402810019936E /* chipmunk.h */,
+				2C265A56131402810019936E /* chipmunk_ffi.h */,
+				2C265A57131402810019936E /* chipmunk_private.h */,
+				2C265A58131402810019936E /* chipmunk_types.h */,
+				2C265A59131402810019936E /* chipmunk_unsafe.h */,
+				2C265A5A131402810019936E /* constraints */,
+				2C265A67131402810019936E /* cpArbiter.h */,
+				2C265A68131402810019936E /* cpArray.h */,
+				2C265A69131402810019936E /* cpBB.h */,
+				2C265A6A131402810019936E /* cpBody.h */,
+				2C265A6B131402810019936E /* cpCollision.h */,
+				2C265A6C131402810019936E /* cpHashSet.h */,
+				2C265A6D131402810019936E /* cpPolyShape.h */,
+				2C265A6E131402810019936E /* cpShape.h */,
+				2C265A6F131402810019936E /* cpSpace.h */,
+				2C265A70131402810019936E /* cpSpaceHash.h */,
+				2C265A71131402810019936E /* cpVect.h */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		2C265A5A131402810019936E /* constraints */ = {
+			isa = PBXGroup;
+			children = (
+				2C265A5B131402810019936E /* cpConstraint.h */,
+				2C265A5C131402810019936E /* cpDampedRotarySpring.h */,
+				2C265A5D131402810019936E /* cpDampedSpring.h */,
+				2C265A5E131402810019936E /* cpGearJoint.h */,
+				2C265A5F131402810019936E /* cpGrooveJoint.h */,
+				2C265A60131402810019936E /* cpPinJoint.h */,
+				2C265A61131402810019936E /* cpPivotJoint.h */,
+				2C265A62131402810019936E /* cpRatchetJoint.h */,
+				2C265A63131402810019936E /* cpRotaryLimitJoint.h */,
+				2C265A64131402810019936E /* cpSimpleMotor.h */,
+				2C265A65131402810019936E /* cpSlideJoint.h */,
+				2C265A66131402810019936E /* util.h */,
+			);
+			path = constraints;
+			sourceTree = "<group>";
+		};
+		2C8E703D12F5768E0035064D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C8E6F2512F55ED20035064D /* UIImageExtension.m */,
+				2C8E6F2412F55ED20035064D /* UIImageExtension.h */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		2CDC60F912F2A60200BD9826 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* HuffPuffViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* HuffPuffViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2CDC60FA12F2A60900BD9826 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C8E709612F581BF0035064D /* HuffPuffModel.h */,
+				2C8E709712F581BF0035064D /* HuffPuffModel.m */,
+				2CC8A87512F4050E00C4417D /* HuffPuffStorage.h */,
+				2CC8A87612F4050E00C4417D /* HuffPuffStorage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2CDC60FB12F2A60E00BD9826 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CDC636812F353BA00BD9826 /* HuffPuffPig.h */,
+				2CDC631A12F34E9A00BD9826 /* HuffPuffPig.m */,
+				2CDC636712F353BA00BD9826 /* HuffPuffBlock.h */,
+				2CDC631512F34E3200BD9826 /* HuffPuffBlock.m */,
+				2CDC636912F353BA00BD9826 /* HuffPuffWolf.h */,
+				2CDC631B12F34E9A00BD9826 /* HuffPuffWolf.m */,
+				2C206FA713158BA300937B56 /* HuffPuffWind.h */,
+				2C206FA813158BA300937B56 /* HuffPuffWind.m */,
+				2C19FF6313167175009A5D43 /* HuffPuffArrow.h */,
+				2C19FF6413167175009A5D43 /* HuffPuffArrow.m */,
+				2CD010661316EC85002F253C /* HuffPuffPower.h */,
+				2CD010671316EC85002F253C /* HuffPuffPower.m */,
+				2CDC631712F34E7800BD9826 /* HuffPuffGameObject.h */,
+				2CDC635712F352FA00BD9826 /* HuffPuffGameObject.m */,
+				2C69E79B1312489D00C15FF7 /* GameController.h */,
+				2C69E79C1312489D00C15FF7 /* GameController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2CE6A68E12F1C268001EC24F /* Game Art */ = {
+			isa = PBXGroup;
+			children = (
+				2C206F8A1315808500937B56 /* breath-bar.png */,
+				2C206F8B1315808500937B56 /* direction-arorw-selected.png */,
+				2C206F8C1315808500937B56 /* direction-arrow.png */,
+				2C206F8D1315808500937B56 /* direction-degree.png */,
+				2C206F8E1315808500937B56 /* windblow.png */,
+				2CDC60D812F1EBE600BD9826 /* block1.png */,
+				2CDC60D912F1EBE600BD9826 /* block2.png */,
+				2CDC60DA12F1EBE600BD9826 /* block3.png */,
+				2CDC60DB12F1EBE600BD9826 /* block4.png */,
+				2CDC60DC12F1EBE600BD9826 /* iron.png */,
+				2CDC60DD12F1EBE600BD9826 /* pig.png */,
+				2CDC60DE12F1EBE600BD9826 /* stone.png */,
+				2CDC60DF12F1EBE600BD9826 /* straw.png */,
+				2CDC60E012F1EBE600BD9826 /* wolfs.png */,
+				2CDC60E112F1EBE600BD9826 /* wood.png */,
+				2CE6A69112F1C2E2001EC24F /* background.png */,
+				2CE6A69212F1C2E2001EC24F /* ground.png */,
+			);
+			name = "Game Art";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PS3Re */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PS3Re" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PS3Re;
+			productName = HuffPuff;
+			productReference = 1D6058910D05DD3D006BFB54 /* PS3Re.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PS3Re" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PS3Re */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* HuffPuffViewController.xib in Resources */,
+				2CE6A69312F1C2E2001EC24F /* background.png in Resources */,
+				2CE6A69412F1C2E2001EC24F /* ground.png in Resources */,
+				2CDC60E212F1EBE600BD9826 /* block1.png in Resources */,
+				2CDC60E312F1EBE600BD9826 /* block2.png in Resources */,
+				2CDC60E412F1EBE600BD9826 /* block3.png in Resources */,
+				2CDC60E512F1EBE600BD9826 /* block4.png in Resources */,
+				2CDC60E612F1EBE600BD9826 /* iron.png in Resources */,
+				2CDC60E712F1EBE600BD9826 /* pig.png in Resources */,
+				2CDC60E812F1EBE600BD9826 /* stone.png in Resources */,
+				2CDC60E912F1EBE600BD9826 /* straw.png in Resources */,
+				2CDC60EA12F1EBE600BD9826 /* wolfs.png in Resources */,
+				2CDC60EB12F1EBE600BD9826 /* wood.png in Resources */,
+				2C206F8F1315808500937B56 /* breath-bar.png in Resources */,
+				2C206F901315808500937B56 /* direction-arorw-selected.png in Resources */,
+				2C206F911315808500937B56 /* direction-arrow.png in Resources */,
+				2C206F921315808500937B56 /* direction-degree.png in Resources */,
+				2C206F931315808500937B56 /* windblow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HuffPuffAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* HuffPuffViewController.m in Sources */,
+				2CDC631612F34E3200BD9826 /* HuffPuffBlock.m in Sources */,
+				2CDC631D12F34E9A00BD9826 /* HuffPuffPig.m in Sources */,
+				2CDC631E12F34E9A00BD9826 /* HuffPuffWolf.m in Sources */,
+				2CDC635812F352FA00BD9826 /* HuffPuffGameObject.m in Sources */,
+				2CC8A87712F4050E00C4417D /* HuffPuffStorage.m in Sources */,
+				2C8E6F2612F55ED20035064D /* UIImageExtension.m in Sources */,
+				2C8E709812F581BF0035064D /* HuffPuffModel.m in Sources */,
+				2C69E79D1312489D00C15FF7 /* GameController.m in Sources */,
+				2C206FA913158BA300937B56 /* HuffPuffWind.m in Sources */,
+				2C19FF6513167175009A5D43 /* HuffPuffArrow.m in Sources */,
+				2CD010681316EC85002F253C /* HuffPuffPower.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/HuffPuff/HuffPuffStore.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PS3Re_Prefix.pch;
+				INFOPLIST_FILE = "PS3Re-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Chipmunk-5.3.4/Objective-Chipmunk/Objective-Chipmunk/Objective-Chipmunk-simulator\"",
+					"\"$(SRCROOT)/Classes/Objective-Chipmunk-simulator\"",
+				);
+				PRODUCT_NAME = PS3Re;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/HuffPuff/HuffPuffStore.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PS3Re_Prefix.pch;
+				INFOPLIST_FILE = "PS3Re-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Chipmunk-5.3.4/Objective-Chipmunk/Objective-Chipmunk/Objective-Chipmunk-simulator\"",
+					"\"$(SRCROOT)/Classes/Objective-Chipmunk-simulator\"",
+				);
+				PRODUCT_NAME = PS3Re;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PS3Re" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PS3Re" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

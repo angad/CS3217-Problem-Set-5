@@ -14,26 +14,26 @@
 
 -(id)initPath:(NSString*)img gamearea:(UIScrollView*)g palette:(UIView*)p
 {
+	//initializes Pig with UIImage, View and Model
 	[super init];
 	objectType = kGameObjectPig;
 	image = [UIImage imageNamed:img];
 	view = [[UIImageView alloc] initWithImage:image];
 	model = [[HuffPuffModel alloc]init];
-
 	
+	//Physics Engine
 	cpFloat mass = 1.0;
 	cpFloat moment = cpMomentForBox(mass, 88, 88);
 	body = [[ChipmunkBody alloc] initWithMass:mass andMoment:moment];
 	
 	shape = [ChipmunkPolyShape boxWithBody:body width:88 height:88];
 	shape.elasticity = 0.3;
-	shape.friction = 0.3;
+	shape.friction = 1.0;
 	shape.collisionType = [HuffPuffPig class];
 	shape.data = self;
 	chipmunkObjects = [ChipmunkObjectFlatten(body, shape, nil) retain];
 
 	//using tag to store objecttype information
-	view.tag = @"pig.png";
 	view.userInteractionEnabled = YES;
 	view.frame = CGRectMake(10, 10, 55, 55);
 
@@ -130,10 +130,6 @@
 	[model setTransform:body.affineTransform];
 	view.transform = body.affineTransform;
 	view.center = [body world2local:body.pos];
-	
-	//view.center = [body local2world:body.pos];
-	//NSLog(@"%f %f", body.pos.x, body.pos.y);
-	//NSLog(@"%f %f %f %f", view.frame.origin.x, view.frame.origin.y, view.frame.size.width, view.frame.size.height);
 }
 
 -(void)removeGestureRecognizers

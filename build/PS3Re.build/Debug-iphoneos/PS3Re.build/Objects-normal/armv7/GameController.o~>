@@ -1,0 +1,35 @@
+In file included from /Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.h:12,
+                 from /Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:9:
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.h:35: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.h:35: warning: assign attribute (default) not appropriate for non-gc object property 'path'
+In file included from /Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffPig.h:10,
+                 from /Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.h:13,
+                 from /Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:9:
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: attribute 'readonly' of property 'view' restricts attribute 'readwrite' of 'UIViewController' property in super class
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: property 'view' 'retain' attribute does not match super class 'UIViewController' property
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: property 'view' type does not match super class 'UIViewController' property type
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: property 'view' and its super class 'UIViewController' don't have matching 'atomic' attribute
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m: In function '-[GameController initWithGameArea:Palette:]':
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:26: error: stray '\302' in program
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:26: error: stray '\240' in program
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:26: error: stray '\302' in program
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:26: error: stray '\240' in program
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:37: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UIScrollView *' when passing argument 2 of 'initPath:gamearea:palette:' from distinct Objective-C type
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:38: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UIScrollView *' when passing argument 2 of 'initPath:gamearea:palette:' from distinct Objective-C type
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:39: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UIScrollView *' when passing argument 2 of 'initPath:gamearea:palette:' from distinct Objective-C type
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m: In function '-[GameController gameStart]':
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:93: warning: invalid receiver type 'cpShape *'
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:102: warning: invalid receiver type 'cpShape *'
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:117: warning: 'HuffPuffWolf' may not respond to '-addTap'
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:117: warning: (Messages without a matching method signature
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:117: warning: will be assumed to return 'id' and accept
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:117: warning: '...' as arguments.)
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m: In function '+[GameController addObject:]':
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:128: warning: no '-dataset:' method found
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m: In function '-[GameController removeBlock:]':
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:187: warning: invalid receiver type 'cpShape *'
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m: In function '-[GameController saveModel]':
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:388: warning: no '-getModel' method found
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m: At top level:
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:402: warning: incomplete implementation of class 'GameController'
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/GameController.m:402: warning: method definition for '-postSolveCollision:space:' not found

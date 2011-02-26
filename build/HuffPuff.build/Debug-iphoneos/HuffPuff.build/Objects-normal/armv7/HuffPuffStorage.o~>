@@ -1,0 +1,6 @@
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m:48: warning: incomplete implementation of class 'HuffPuffStorage'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m:48: warning: method definition for '+store:' not found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m:48: warning: incomplete implementation of class 'HuffPuffStorage'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m:48: warning: method definition for '-loadFromFile' not found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m:48: warning: method definition for '-writeToFile' not found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m:48: warning: method definition for '-addObject:' not found

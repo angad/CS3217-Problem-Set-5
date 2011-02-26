@@ -11,6 +11,9 @@
 #import "HuffPuffModel.h"
 
 @interface HuffPuffPig : HuffPuffGameObject <ChipmunkObject> {	
+	NSMutableArray *pigSprite;
+
+
 }
 
 -(id)initPath:(NSString *)img gamearea:(UIScrollView *)g palette:(UIView*)p;

@@ -14,5 +14,5 @@
 
 }
 -(void)updatePosition;
-
+-(id)initPath:(NSString *)img;
 @end

@@ -50,7 +50,6 @@
 	flag =0;
 	gamearea = g;
 	objectType = kGameObjectWolf;
-	view.tag = @"wolf.png";
 	
 	shape = [ChipmunkPolyShape boxWithBody:body width:225 height:150];
 	shape.elasticity = 0.3;
@@ -87,10 +86,14 @@
 	return self;
 }
 
--(void)gameSetup{
+-(void)addTap{
 	tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(animate:)];
 	tap.numberOfTapsRequired = 1;
 	[view addGestureRecognizer:tap];
+}
+
+-(void)removeTap{
+	[[self view] removeGestureRecognizer:tap];
 }
 
 -(void)animate:(UIGestureRecognizer *)gesture

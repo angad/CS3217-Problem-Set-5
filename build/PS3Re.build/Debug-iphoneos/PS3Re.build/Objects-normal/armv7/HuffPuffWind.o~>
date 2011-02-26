@@ -1,0 +1,11 @@
+In file included from /Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:16,
+                 from /Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWind.h:10,
+                 from /Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWind.m:9:
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.h:35: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.h:35: warning: assign attribute (default) not appropriate for non-gc object property 'path'
+In file included from /Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWind.h:10,
+                 from /Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWind.m:9:
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: attribute 'readonly' of property 'view' restricts attribute 'readwrite' of 'UIViewController' property in super class
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: property 'view' 'retain' attribute does not match super class 'UIViewController' property
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: property 'view' type does not match super class 'UIViewController' property type
+/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h:67: warning: property 'view' and its super class 'UIViewController' don't have matching 'atomic' attribute

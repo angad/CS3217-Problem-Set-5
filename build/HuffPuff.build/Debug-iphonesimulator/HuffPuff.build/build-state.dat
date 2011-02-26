@@ -1,0 +1,1219 @@
+THuffPuff
+v7
+r0
+t318167349.329002
+cCheck dependencies
+cProcessInfoPlistFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist HuffPuff-Info.plist
+cCompileXIB /Users/angadsg/Documents/HuffPuff/MainWindow.xib
+cCompileXIB /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/background.png background.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/ground.png ground.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/block1.png block1.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/block2.png block2.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/block3.png block3.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/block4.png block4.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/iron.png iron.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/pig.png pig.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/stone.png stone.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/straw.png straw.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/wolfs.png wolfs.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/wood.png wood.png
+cProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o /Users/angadsg/Documents/HuffPuff/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff normal i386
+cGenerateDSYMFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+cTouch /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffAppDelegate.h
+c000000004D41858400000000000001D6
+t1296139652
+s470
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffAppDelegate.m
+c000000004D41858400000000000007AA
+t1296139652
+s1962
+i"HuffPuffAppDelegate.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffBlock.h
+c000000004D4662DC00000000000002FA
+t1296458460
+s762
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffBlock.m
+c000000004D46A1EB0000000000000C3D
+t1296474603
+s3133
+i"HuffPuffBlock.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffController.h
+c000000004D43DC64000000000000010D
+t1296292964
+s269
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffGameObject.h
+c000000004D463CA90000000000000501
+t1296448681
+s1281
+i<UIKit/UIKit.h>
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffGameObject.m
+c000000004D463B710000000000000839
+t1296448369
+s2105
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffModel.h
+c000000004D455D89000000000000025D
+t1296391561
+s605
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffModel.m
+c000000004D468CC80000000000000323
+t1296469192
+s803
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffPig.h
+c000000004D468CDB0000000000000336
+t1296469211
+s822
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffPig.m
+c000000004D468D2200000000000009DF
+t1296469282
+s2527
+i"HuffPuffPig.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffStorage.h
+c000000004D455AF2000000000000016B
+t1296390898
+s363
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffStorage.m
+c000000004D463DBB0000000000000628
+t1296448955
+s1576
+i"HuffPuffStorage.h"
+i"UIImageExtension.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffViewController.h
+c000000004D468CBF0000000000000221
+t1296469183
+s545
+i<UIKit/UIKit.h>
+i"HuffPuffPig.h"
+i"HuffPuffWolf.h"
+i"HuffPuffBlock.h"
+i"HuffPuffController.h"
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffViewController.m
+c000000004D468CB50000000000001922
+t1296469173
+s6434
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffWolf.h
+c000000004D4662CE00000000000002E7
+t1296458446
+s743
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffWolf.m
+c000000004D46467C00000000000009E1
+t1296451196
+s2529
+i"HuffPuffWolf.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/UIImageExtension.h
+c000000004D452769000000000000011D
+t1296377705
+s285
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/UIImageExtension.m
+c000000004D455E82000000000000020F
+t1296391810
+s527
+i"UIImageExtension.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/HuffPuffViewController.xib
+c000000004D46A1280000000000007108
+t1296474408
+s28936
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/HuffPuff_Prefix.pch
+c000000004D41858400000000000000B9
+t1296139652
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/MainWindow.xib
+c000000004D4185840000000000004D13
+t1296139652
+s19731
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/background.png
+c000000004D2F0A1800000000000307E4
+t1294928408
+s198628
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block1.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block2.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block3.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block4.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+t1296474417
+s646
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM
+t1296474363
+s102
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+t1296474363
+s57356
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuffViewController.nib
+t1296474417
+s2294
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist
+t1296205726
+s797
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/MainWindow.nib
+t1296141425
+s1125
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/PkgInfo
+t1296205726
+s8
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/background.png
+t1296141425
+s198628
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block1.png
+t1296205726
+s4776
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block2.png
+t1296205726
+s3192
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block3.png
+t1296205726
+s529
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block4.png
+t1296205726
+s1697
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/ground.png
+t1296141425
+s29025
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/iron.png
+t1296205726
+s529
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/pig.png
+t1296205726
+s4636
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/stone.png
+t1296205726
+s1697
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/straw.png
+t1296205726
+s4776
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/wolfs.png
+t1296205726
+s313705
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/wood.png
+t1296205726
+s3192
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuff.LinkFileList
+c000000004D455ED2000000000000050D
+t1296391890
+s1293
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o
+t1296474142
+s51044
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o
+t1296474363
+s56900
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o
+t1296448683
+s44876
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o
+t1296474142
+s41260
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o
+t1296474142
+s54520
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o
+t1296449307
+s10736
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o
+t1296474142
+s57236
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o
+t1296458595
+s54984
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o
+t1296391891
+s8264
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o
+t1296141426
+s6292
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/ground.png
+c000000004D2F0A1A0000000000007161
+t1294928410
+s29025
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/iron.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/main.m
+c000000004D418584000000000000015B
+t1296139652
+s347
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/pig.png
+c000000004D3D1F98000000000000121C
+t1295851416
+s4636
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/stone.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/straw.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/wolfs.png
+c000000004D3D1F98000000000004C969
+t1295851416
+s313705
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/wood.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.h
+c000000004D41858400000000000001D6
+t1296139652
+s470
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m
+c000000004D41858400000000000007AA
+t1296139652
+s1962
+i"HuffPuffAppDelegate.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.h
+c000000004D4662DC00000000000002FA
+t1296458460
+s762
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m
+c000000004D46A1EB0000000000000C3D
+t1296474603
+s3133
+i"HuffPuffBlock.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.h
+c000000004D43DC64000000000000010D
+t1296292964
+s269
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m
+c000000004D43DD28000000000000016D
+t1296293160
+s365
+i"HuffPuffController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.h
+c000000004D463CA90000000000000501
+t1296448681
+s1281
+i<UIKit/UIKit.h>
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m
+c000000004D463B710000000000000839
+t1296448369
+s2105
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.h
+c000000004D455D89000000000000025D
+t1296391561
+s605
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m
+c000000004D468CC80000000000000323
+t1296469192
+s803
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.h
+c000000004D455D89000000000000025D
+t1296391561
+s605
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m
+c000000004D454DFA0000000000000324
+t1296387578
+s804
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.h
+c000000004D468CDB0000000000000336
+t1296469211
+s822
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m
+c000000004D468D2200000000000009DF
+t1296469282
+s2527
+i"HuffPuffPig.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.h
+c000000004D455AF2000000000000016B
+t1296390898
+s363
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m
+c000000004D463DBB0000000000000628
+t1296448955
+s1576
+i"HuffPuffStorage.h"
+i"UIImageExtension.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.h
+c000000004D468CBF0000000000000221
+t1296469183
+s545
+i<UIKit/UIKit.h>
+i"HuffPuffPig.h"
+i"HuffPuffWolf.h"
+i"HuffPuffBlock.h"
+i"HuffPuffController.h"
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m
+c000000004D468CB50000000000001922
+t1296469173
+s6434
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.h
+c000000004D4662CE00000000000002E7
+t1296458446
+s743
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m
+c000000004D46467C00000000000009E1
+t1296451196
+s2529
+i"HuffPuffWolf.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.h
+c000000004D452769000000000000011D
+t1296377705
+s285
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m
+c000000004D455E82000000000000020F
+t1296391810
+s527
+i"UIImageExtension.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/UIPickerViewController.h
+c000000004D45596B000000000000014F
+t1296390507
+s335
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/UIPickerViewController.m
+c000000004D4558E700000000000000DA
+t1296390375
+s218
+i"UIPickerViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+c000000004D46A1280000000000007108
+t1296474408
+s28936
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch
+c000000004D41858400000000000000B9
+t1296139652
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/MainWindow.xib
+c000000004D4185840000000000004D13
+t1296139652
+s19731
+
+N/Users/angadsg/Documents/HuffPuff/background.png
+c000000004D2F0A1800000000000307E4
+t1294928408
+s198628
+
+N/Users/angadsg/Documents/HuffPuff/block1.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Documents/HuffPuff/block2.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Documents/HuffPuff/block3.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Documents/HuffPuff/block4.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+t1296474417
+s646
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM
+t1296474363
+s102
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+t1296474363
+s57356
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuffViewController.nib
+t1296474417
+s2294
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist
+t1296205726
+s797
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/MainWindow.nib
+t1296141425
+s1125
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/PkgInfo
+t1296205726
+s8
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/background.png
+t1296141425
+s198628
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block1.png
+t1296205726
+s4776
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block2.png
+t1296205726
+s3192
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block3.png
+t1296205726
+s529
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/block4.png
+t1296205726
+s1697
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/ground.png
+t1296141425
+s29025
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/iron.png
+t1296205726
+s529
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/pig.png
+t1296205726
+s4636
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/stone.png
+t1296205726
+s1697
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/straw.png
+t1296205726
+s4776
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/wolfs.png
+t1296205726
+s313705
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/wood.png
+t1296205726
+s3192
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuff.LinkFileList
+c000000004D455ED2000000000000050D
+t1296391890
+s1293
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o
+t1296474142
+s51044
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o
+t1296474363
+s56900
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffController.o
+t1296293553
+s8876
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o
+t1296448683
+s44876
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o
+t1296474142
+s41260
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModelController.o
+t2
+s0
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o
+t1296474142
+s54520
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o
+t1296449307
+s10736
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o
+t1296474142
+s57236
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o
+t1296458595
+s54984
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o
+t1296391891
+s8264
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIPickerViewController.o
+t2
+s0
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o
+t1296141426
+s6292
+
+N/Users/angadsg/Documents/HuffPuff/ground.png
+c000000004D2F0A1A0000000000007161
+t1294928410
+s29025
+
+N/Users/angadsg/Documents/HuffPuff/iron.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Documents/HuffPuff/main.m
+c000000004D418584000000000000015B
+t1296139652
+s347
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/pig.png
+c000000004D3D1F98000000000000121C
+t1295851416
+s4636
+
+N/Users/angadsg/Documents/HuffPuff/stone.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Documents/HuffPuff/straw.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Documents/HuffPuff/wolfs.png
+c000000004D3D1F98000000000004C969
+t1295851416
+s313705
+
+N/Users/angadsg/Documents/HuffPuff/wood.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch
+t1296141426
+s15453392
+
+N/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-dqlssnzwidrvshbtgpbqtjtdrkot/HuffPuff_Prefix.pch.gch
+t2
+s0
+
+NHuffPuff-Info.plist
+c000000004D42397E00000000000004A5
+t1296185726
+s1189
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318167349#318167349#0(0"0(0#1#0"8616852928#0"0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318166939.269162
+e318166942.623310
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m318166939#318166942#0(0"0(0#0#63"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m8616944224#1917"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffBlock.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318167162.979154
+e318167163.244375
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock initPath:gamearea:palette:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:24: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock tap:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:91: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:96: warning: local declaration of 'image' hides instance variable
+lSLF07#2@65"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167162#318167163#0(628"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock initPath:gamearea:palette:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:24: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock tap:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:91: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:96: warning: local declaration of 'image' hides instance variable3(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318167163#118#145#0(6@57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167149#24#0#24#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318167163#359#145#0(6@57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167149#91#0#91#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@52"Local declaration of 'image' hides instance variable318167163#504#124#0(6@57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167149#96#0#96#0#0"0(0#0#57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m8617067392#1905"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffBlock.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317986353.676438
+e317986353.868821
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffController.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m: In function '-[HuffPuffController addObject::]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: 'HuffPuffStorage' may not respond to '-addObject::'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: (Messages without a matching method signature
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: will be assumed to return 'id' and accept
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: '...' as arguments.)
+lSLF07#2@70"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m317986353#317986353#0(578"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m: In function '-[HuffPuffController addObject::]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: 'HuffPuffStorage' may not respond to '-addObject::'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: (Messages without a matching method signature/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: will be assumed to return 'id' and accept/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m:24: warning: '...' as arguments.)2(22@51"'HuffPuffStorage' may not respond to '-addObject::'317986353#113#128#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m317985960#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317986353#241#122#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m317985960#24#0#24#0#0"0(0#0#62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m8630378528#1915"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffController.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffGameObject.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318141483.362752
+e318141483.459948
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject translate:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:29: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject rotate:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:44: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject zoom:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:58: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: At top level:
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:66: warning: property 'objectType' requires method '-objectType' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@70"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141483#318141483#0(1124"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject translate:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:29: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject rotate:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:44: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject zoom:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:58: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: At top level:/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:66: warning: property 'objectType' requires method '-objectType' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@94"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'318141483#112#171#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#29#0#29#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@94"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'318141483#392#171#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#44#0#44#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@94"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'318141483#670#171#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#58#0#58#0#61"incompatible Objective-C types initializing '*', expected '*'0(23@13"At top level:318141483#841#78#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#0#0#0#0#0"0(22@128"Property 'objectType' requires method '-objectType' to be defined - use @synthesize, @dynamic or provide a method implementation318141483#919#205#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#66#0#66#0#0"0(0#0#62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m8606709280#1915"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffGameObject.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318166942.706849
+e318166942.886405
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m318166942#318166942#0(0"0(0#0#57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m8615156160#1905"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModel.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModelController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318084364.910092
+e318084365.126294
+r0
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModelController.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:9:26: error: HuffPuffModel.h: No such file or directory
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:13: warning: cannot find interface declaration for 'HuffPuffModel'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel init]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:15: error: 'gamearea' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:15: error: (Each undeclared identifier is reported only once
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:15: error: for each function it appears in.)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:16: error: 'palette' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel addGameAreaObject:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:22: error: 'gamearea' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel remGameAreaObject:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:25: error: 'gamearea' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel addPaletteObject:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:28: error: 'palette' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel remPaletteObject:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:31: error: 'palette' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel writeToFile]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:35: error: 'HuffPuffStorage' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:35: error: 'gamearea' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:36: error: 'palette' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel loadFile:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:41: error: 'HuffPuffStorage' undeclared (first use in this function)
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:42: warning: control reaches end of non-void function
+lSLF07#2@75"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318084364#318084365#0(2741"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:9:26: error: HuffPuffModel.h: No such file or directory/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:13: warning: cannot find interface declaration for 'HuffPuffModel'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel init]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:15: error: 'gamearea' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:15: error: (Each undeclared identifier is reported only once/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:15: error: for each function it appears in.)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:16: error: 'palette' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel addGameAreaObject:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:22: error: 'gamearea' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel remGameAreaObject:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:25: error: 'gamearea' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel addPaletteObject:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:28: error: 'palette' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel remPaletteObject:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:31: error: 'palette' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel writeToFile]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:35: error: 'HuffPuffStorage' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:35: error: 'gamearea' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:36: error: 'palette' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m: In function '-[HuffPuffModel loadFile:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:41: error: 'HuffPuffStorage' undeclared (first use in this function)/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m:42: warning: control reaches end of non-void function13(4@42"HuffPuffModel.h: No such file or directory318084365#0#124#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#9#0#9#0#28"*: No such file or directory0(22@53"Cannot find interface declaration for 'HuffPuffModel'318084365#124#135#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#13#0#13#0#0"0(4@50"'gamearea' undeclared (first use in this function)318084365#365#130#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#15#0#15#0#43"'*' undeclared (first use in this function)0(4@49"'palette' undeclared (first use in this function)318084365#737#129#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#16#0#16#0#43"'*' undeclared (first use in this function)0(4@50"'gamearea' undeclared (first use in this function)318084365#986#130#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#22#0#22#0#43"'*' undeclared (first use in this function)0(4@50"'gamearea' undeclared (first use in this function)318084365#1236#130#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#25#0#25#0#43"'*' undeclared (first use in this function)0(4@49"'palette' undeclared (first use in this function)318084365#1485#129#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#28#0#28#0#43"'*' undeclared (first use in this function)0(4@49"'palette' undeclared (first use in this function)318084365#1733#129#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#31#0#31#0#43"'*' undeclared (first use in this function)0(4@57"'HuffPuffStorage' undeclared (first use in this function)318084365#1975#137#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#35#0#35#0#43"'*' undeclared (first use in this function)0(4@50"'gamearea' undeclared (first use in this function)318084365#2112#130#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#35#0#35#0#43"'*' undeclared (first use in this function)0(4@49"'palette' undeclared (first use in this function)318084365#2242#129#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#36#0#36#0#43"'*' undeclared (first use in this function)0(4@57"'HuffPuffStorage' undeclared (first use in this function)318084365#2482#137#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#41#0#41#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function318084365#2619#122#0(6@67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m318080378#42#0#42#0#40"control reaches end of non-void function0(0#0#67"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m8677467040#1925"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModelController.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffModelController.o1#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffPig.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318166942.623627
+e318166942.886218
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m: In function '-[HuffPuffPig initPath:gamearea:palette:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m:28: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+lSLF07#2@63"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m318166942#318166942#0(257"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m: In function '-[HuffPuffPig initPath:gamearea:palette:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m:28: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast1(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318166942#114#143#0(6@55"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m318162082#28#0#28#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#55"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m8615750592#1901"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffPig.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffStorage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318142106.789528
+e318142107.032576
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m318142106#318142107#0(0"0(0#0#59"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m8618081472#1909"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffStorage.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318166939.306552
+e318166942.705692
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController load]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:143: warning: initialization makes pointer from integer without a cast
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:168: warning: initialization makes pointer from integer without a cast
+lSLF07#2@74"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m318166939#318166942#0(390"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController load]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:143: warning: initialization makes pointer from integer without a cast/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:168: warning: initialization makes pointer from integer without a cast2(22@56"Initialization makes pointer from integer without a cast318166941#114#138#0(6@66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m318161973#143#0#143#0#0"0(22@56"Initialization makes pointer from integer without a cast318166941#252#138#0(6@66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m318161973#168#0#168#0#0"0(0#0#66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m8619123776#1923"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffWolf.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318151395.509825
+e318151395.648874
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m: In function '-[HuffPuffWolf initPath:gamearea:palette:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m:32: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+lSLF07#2@64"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m318151395#318151395#0(260"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m: In function '-[HuffPuffWolf initPath:gamearea:palette:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m:32: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast1(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318151395#116#144#0(6@56"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m318143996#32#0#32#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#56"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m8619264480#1903"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffWolf.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/UIImageExtension.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318084691.241696
+e318084691.446261
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o
+x/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m318084691#318084691#0(0"0(0#0#60"/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m8678101344#1911"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIImageExtension.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/UIPickerViewController.o /Users/angadsg/Documents/HuffPuff/Classes/UIPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o /Users/angadsg/Documents/HuffPuff/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834226.585106
+e317834226.699577
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o
+x/Users/angadsg/Documents/HuffPuff/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/angadsg/Documents/HuffPuff/main.m317834226#317834226#0(0"0(0#0#40"/Users/angadsg/Documents/HuffPuff/main.m8603521280#1879"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/main.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/HuffPuffViewController.xib"
+r0
+
+CCompileXIB "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/MainWindow.xib"
+r0
+
+CCompileXIB /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+s318167216.756876
+e318167217.372258
+r1
+xCompileXIB
+x/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+lSLF07#2@37"CompileXIB HuffPuffViewController.xib318167216#318167217#0(0"0(0#0#60"/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib8618677440#580"    cd /Users/angadsg/Documents/HuffPuff    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuffViewController.nib /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/angadsg/Documents/HuffPuff/MainWindow.xib
+s317834223.430608
+e317834225.036638
+r1
+xCompileXIB
+x/Users/angadsg/Documents/HuffPuff/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317834223#317834225#0(0"0(0#0#48"/Users/angadsg/Documents/HuffPuff/MainWindow.xib8604200384#556"    cd /Users/angadsg/Documents/HuffPuff    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/MainWindow.nib /Users/angadsg/Documents/HuffPuff/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/background.png background.png
+s317834225.036838
+e317834225.124784
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png317834225#317834225#0(0"0(0#0#48"/Users/angadsg/Documents/HuffPuff/background.png8599335520#458"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/background.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/block1.png block1.png
+s317898526.781687
+e317898526.872860
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/block1.png
+xblock1.png
+lSLF07#2@15"Copy block1.png317898526#317898526#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block1.png8650686144#454"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/block1.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/block2.png block2.png
+s317898526.816312
+e317898526.876594
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/block2.png
+xblock2.png
+lSLF07#2@15"Copy block2.png317898526#317898526#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block2.png8650543264#454"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/block2.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/block3.png block3.png
+s317898526.817541
+e317898526.874673
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/block3.png
+xblock3.png
+lSLF07#2@15"Copy block3.png317898526#317898526#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block3.png8650456992#454"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/block3.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/block4.png block4.png
+s317898526.819245
+e317898526.876098
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/block4.png
+xblock4.png
+lSLF07#2@15"Copy block4.png317898526#317898526#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block4.png8650348320#454"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/block4.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/ground.png ground.png
+s317834225.037649
+e317834225.120214
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/ground.png
+xground.png
+lSLF07#2@15"Copy ground.png317834225#317834225#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/ground.png8598689568#454"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/ground.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/iron.png iron.png
+s317898526.821071
+e317898526.875682
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/iron.png
+xiron.png
+lSLF07#2@13"Copy iron.png317898526#317898526#0(0"0(0#0#42"/Users/angadsg/Documents/HuffPuff/iron.png8650208480#452"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/iron.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/pig.png pig.png
+s317898526.822834
+e317898526.876415
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/pig.png
+xpig.png
+lSLF07#2@12"Copy pig.png317898526#317898526#0(0"0(0#0#41"/Users/angadsg/Documents/HuffPuff/pig.png8650135328#451"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/pig.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/stone.png stone.png
+s317898526.825008
+e317898526.873671
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/stone.png
+xstone.png
+lSLF07#2@14"Copy stone.png317898526#317898526#0(0"0(0#0#43"/Users/angadsg/Documents/HuffPuff/stone.png8650019072#453"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/stone.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/straw.png straw.png
+s317898526.826602
+e317898526.877321
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/straw.png
+xstraw.png
+lSLF07#2@14"Copy straw.png317898526#317898526#0(0"0(0#0#43"/Users/angadsg/Documents/HuffPuff/straw.png8649997600#453"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/straw.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/wolfs.png wolfs.png
+s317898526.828181
+e317898526.887065
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/wolfs.png
+xwolfs.png
+lSLF07#2@14"Copy wolfs.png317898526#317898526#0(0"0(0#0#43"/Users/angadsg/Documents/HuffPuff/wolfs.png8649926240#453"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/wolfs.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/wood.png wood.png
+s317898526.829691
+e317898526.866661
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/wood.png
+xwood.png
+lSLF07#2@13"Copy wood.png317898526#317898526#0(0"0(0#0#42"/Users/angadsg/Documents/HuffPuff/wood.png8649858048#452"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/wood.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CGenerateDSYMFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM" "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff"
+r0
+
+CGenerateDSYMFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+s318167163.358534
+e318167163.473513
+r1
+xGenerateDSYMFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/HuffPuff.app.dSYM build/Debug-iphonesimulator/HuffPuff.app/HuffPuff318167163#318167163#0(0"0(0#0#83"/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff8618972288#371"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM0#
+
+CLd "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff" normal i386
+r0
+
+CLd /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff normal i386
+s318167163.244456
+e318167163.358196
+r1
+xLd
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+xnormal
+xi386
+lSLF07#2@88"Link /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff318167163#318167163#0(0"0(0#0#0"8598529344#880"    cd /Users/angadsg/Documents/HuffPuff    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -filelist /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuff.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff0#
+
+CProcessInfoPlistFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist" HuffPuff-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist HuffPuff-Info.plist
+s317898526.725714
+e317898526.781345
+r1
+xProcessInfoPlistFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist
+xHuffPuff-Info.plist
+lSLF07#2@27"Process HuffPuff-Info.plist317898526#317898526#0(0"0(0#0#53"/Users/angadsg/Documents/HuffPuff/HuffPuff-Info.plist30681223440564324#467"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HuffPuff-Info.plist -genpkginfo /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist0#
+
+CProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834225.125054
+e317834226.584893
+r1
+xProcessPCH
+x/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch
+xHuffPuff_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HuffPuff_Prefix.pch317834225#317834226#0(0"0(0#0#53"/Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch8604069664#1775"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -c /Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch -o /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-dqlssnzwidrvshbtgpbqtjtdrkot/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app"
+r0
+
+CTouch /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+s318167217.373837
+e318167217.376647
+r1
+xTouch
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+lSLF07#2@80"Touch /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app318167217#318167217#0(0"0(0#0#0"8615809536#269"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+

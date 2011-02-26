@@ -1,0 +1,1676 @@
+THuffPuff
+v7
+r0
+t318170110.896879
+cCheck dependencies
+cCpResource build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist HuffPuff-Info.plist
+cCompileXIB /Users/angadsg/Documents/HuffPuff/MainWindow.xib
+cCompileXIB /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png background.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png ground.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png block1.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png block2.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png block3.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png block4.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png iron.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png pig.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png stone.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png straw.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png wolfs.png
+cCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png wood.png
+cProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o /Users/angadsg/Documents/HuffPuff/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff normal armv7
+cGenerateDSYMFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+cProcessProductPackaging "/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision" /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision
+cTouch /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+cProcessProductPackaging /Users/angadsg/Documents/HuffPuff/HuffPuffStore.plist /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent
+cCodeSign /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffAppDelegate.h
+c000000004D41858400000000000001D6
+t1296139652
+s470
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffAppDelegate.m
+c000000004D41858400000000000007AA
+t1296139652
+s1962
+i"HuffPuffAppDelegate.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffBlock.h
+c000000004D4662DC00000000000002FA
+t1296458460
+s762
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffBlock.m
+c000000004D46A1EB0000000000000C3D
+t1296474603
+s3133
+i"HuffPuffBlock.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffController.h
+c000000004D43DC64000000000000010D
+t1296292964
+s269
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffGameObject.h
+c000000004D463CA90000000000000501
+t1296448681
+s1281
+i<UIKit/UIKit.h>
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffGameObject.m
+c000000004D463B710000000000000839
+t1296448369
+s2105
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffModel.h
+c000000004D455D89000000000000025D
+t1296391561
+s605
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffModel.m
+c000000004D468CC80000000000000323
+t1296469192
+s803
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffPig.h
+c000000004D468CDB0000000000000336
+t1296469211
+s822
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffPig.m
+c000000004D468D2200000000000009DF
+t1296469282
+s2527
+i"HuffPuffPig.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffStorage.h
+c000000004D455AF2000000000000016B
+t1296390898
+s363
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffStorage.m
+c000000004D463DBB0000000000000628
+t1296448955
+s1576
+i"HuffPuffStorage.h"
+i"UIImageExtension.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffViewController.h
+c000000004D468CBF0000000000000221
+t1296469183
+s545
+i<UIKit/UIKit.h>
+i"HuffPuffPig.h"
+i"HuffPuffWolf.h"
+i"HuffPuffBlock.h"
+i"HuffPuffController.h"
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffViewController.m
+c000000004D468CB50000000000001922
+t1296469173
+s6434
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffWolf.h
+c000000004D4662CE00000000000002E7
+t1296458446
+s743
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffWolf.m
+c000000004D46467C00000000000009E1
+t1296451196
+s2529
+i"HuffPuffWolf.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/UIImageExtension.h
+c000000004D452769000000000000011D
+t1296377705
+s285
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/UIImageExtension.m
+c000000004D455E82000000000000020F
+t1296391810
+s527
+i"UIImageExtension.h"
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/HuffPuffViewController.xib
+c000000004D46A1280000000000007108
+t1296474408
+s28936
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/HuffPuff_Prefix.pch
+c000000004D41858400000000000000B9
+t1296139652
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/MainWindow.xib
+c000000004D4185840000000000004D13
+t1296139652
+s19731
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/background.png
+c000000004D2F0A1800000000000307E4
+t1294928408
+s198628
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block1.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block2.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block3.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/block4.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+t1296367751
+s782
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM
+t1296367750
+s102
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+t1296367750
+s52912
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuffViewController.nib
+t1296364769
+s2274
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist
+t1296278456
+s987
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/MainWindow.nib
+t1296278463
+s1125
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/PkgInfo
+t1296278456
+s8
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist
+t1296278456
+s485
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png
+t1296278466
+s153801
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png
+t1296278465
+s5580
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png
+t1296278465
+s3819
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png
+t1296278465
+s624
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png
+t1296278465
+s1829
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision
+t1296278468
+s10014
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png
+t1296278464
+s24017
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png
+t1296278465
+s624
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png
+t1296278465
+s4138
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png
+t1296278465
+s1829
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png
+t1296278465
+s5580
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png
+t1296278466
+s252078
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png
+t1296278466
+s3819
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuff.LinkFileList
+c000000004D44410D00000000000003DA
+t1296318733
+s986
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o
+t1296367427
+s50572
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o
+t1296367629
+s55060
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o
+t1296364772
+s44976
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o
+t1296309880
+s14432
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o
+t1296367427
+s53580
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o
+t1296366933
+s42240
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o
+t1296367427
+s50024
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o
+t1296367750
+s52736
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o
+t2
+s0
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o
+t1296278467
+s6420
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/ground.png
+c000000004D2F0A1A0000000000007161
+t1294928410
+s29025
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/iron.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/main.m
+c000000004D418584000000000000015B
+t1296139652
+s347
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/pig.png
+c000000004D3D1F98000000000000121C
+t1295851416
+s4636
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/stone.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/straw.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/wolfs.png
+c000000004D3D1F98000000000004C969
+t1295851416
+s313705
+
+N/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/wood.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.h
+c000000004D41858400000000000001D6
+t1296139652
+s470
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m
+c000000004D41858400000000000007AA
+t1296139652
+s1962
+i"HuffPuffAppDelegate.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.h
+c000000004D4662DC00000000000002FA
+t1296458460
+s762
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m
+c000000004D46ADBC0000000000000C3D
+t1296477628
+s3133
+i"HuffPuffBlock.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffController.h
+c000000004D43DC64000000000000010D
+t1296292964
+s269
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.h
+c000000004D463CA90000000000000501
+t1296448681
+s1281
+i<UIKit/UIKit.h>
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m
+c000000004D463B710000000000000839
+t1296448369
+s2105
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.h
+c000000004D455D89000000000000025D
+t1296391561
+s605
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m
+c000000004D468CC80000000000000323
+t1296469192
+s803
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.h
+c000000004D468CDB0000000000000336
+t1296469211
+s822
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m
+c000000004D468D2200000000000009DF
+t1296469282
+s2527
+i"HuffPuffPig.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.h
+c000000004D455AF2000000000000016B
+t1296390898
+s363
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m
+c000000004D463DBB0000000000000628
+t1296448955
+s1576
+i"HuffPuffStorage.h"
+i"UIImageExtension.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.h
+c000000004D61CA390000000000000220
+t1298254393
+s544
+i<UIKit/UIKit.h>
+i"HuffPuffPig.h"
+i"HuffPuffWolf.h"
+i"HuffPuffBlock.h"
+i"HuffPuffController.h"
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m
+c000000004D468CB50000000000001922
+t1296469173
+s6434
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.h
+c000000004D4662CE00000000000002E7
+t1296458446
+s743
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m
+c000000004D46467C00000000000009E1
+t1296451196
+s2529
+i"HuffPuffWolf.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.h
+c000000004D452769000000000000011D
+t1296377705
+s285
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m
+c000000004D455E82000000000000020F
+t1296391810
+s527
+i"UIImageExtension.h"
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuffStore.plist
+c000000004D42879E0000000000000192
+t1296205726
+s402
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+c000000004D46A1280000000000007108
+t1296474408
+s28936
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch
+c000000004D41858400000000000000B9
+t1296139652
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/MainWindow.xib
+c000000004D4185840000000000004D13
+t1296139652
+s19731
+
+N/Users/angadsg/Documents/HuffPuff/background.png
+c000000004D2F0A1800000000000307E4
+t1294928408
+s198628
+
+N/Users/angadsg/Documents/HuffPuff/block1.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Documents/HuffPuff/block2.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Documents/HuffPuff/block3.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Documents/HuffPuff/block4.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+t1296477310
+s782
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM
+t1296477309
+s102
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+t1296477309
+s59232
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuffViewController.nib
+t1296477307
+s2292
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist
+t1296278456
+s987
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/MainWindow.nib
+t1296278463
+s1125
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/PkgInfo
+t1296278456
+s8
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist
+t1296278456
+s485
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png
+t1296278466
+s153801
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png
+t1296278465
+s5580
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png
+t1296278465
+s3819
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png
+t1296278465
+s624
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png
+t1296278465
+s1829
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision
+t1296278468
+s10014
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png
+t1296278464
+s24017
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png
+t1296278465
+s624
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png
+t1296278465
+s4138
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png
+t1296278465
+s1829
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png
+t1296278465
+s5580
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png
+t1296278466
+s252078
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png
+t1296278466
+s3819
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent
+t1296278468
+s412
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuff.LinkFileList
+c000000004D46AC7B00000000000004D1
+t1296477307
+s1233
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o
+t1296477308
+s50660
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o
+t1296477308
+s55984
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o
+t1296477309
+s44548
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o
+t1296477309
+s40720
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o
+t1296477308
+s53752
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o
+t1296477309
+s10724
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o
+t1296477308
+s56164
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o
+t1296477309
+s54164
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o
+t1296477309
+s8396
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o
+t1296278467
+s6420
+
+N/Users/angadsg/Documents/HuffPuff/ground.png
+c000000004D2F0A1A0000000000007161
+t1294928410
+s29025
+
+N/Users/angadsg/Documents/HuffPuff/iron.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Documents/HuffPuff/main.m
+c000000004D418584000000000000015B
+t1296139652
+s347
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/pig.png
+c000000004D3D1F98000000000000121C
+t1295851416
+s4636
+
+N/Users/angadsg/Documents/HuffPuff/stone.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Documents/HuffPuff/straw.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Documents/HuffPuff/wolfs.png
+c000000004D3D1F98000000000004C969
+t1295851416
+s313705
+
+N/Users/angadsg/Documents/HuffPuff/wood.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffAppDelegate.h
+c000000004D41858400000000000001D6
+t1296139652
+s470
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffAppDelegate.m
+c000000004D41858400000000000007AA
+t1296139652
+s1962
+i"HuffPuffAppDelegate.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffBlock.h
+c000000004D4662DC00000000000002FA
+t1296458460
+s762
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffBlock.m
+c000000004D46ADBC0000000000000C3D
+t1296477628
+s3133
+i"HuffPuffBlock.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffController.h
+c000000004D43DC64000000000000010D
+t1296292964
+s269
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.h
+c000000004D463CA90000000000000501
+t1296448681
+s1281
+i<UIKit/UIKit.h>
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.m
+c000000004D463B710000000000000839
+t1296448369
+s2105
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.h
+c000000004D455D89000000000000025D
+t1296391561
+s605
+i<Foundation/Foundation.h>
+i"HuffPuffStorage.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.m
+c000000004D468CC80000000000000323
+t1296469192
+s803
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffPig.h
+c000000004D468CDB0000000000000336
+t1296469211
+s822
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffPig.m
+c000000004D468D2200000000000009DF
+t1296469282
+s2527
+i"HuffPuffPig.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffStorage.h
+c000000004D455AF2000000000000016B
+t1296390898
+s363
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffStorage.m
+c000000004D463DBB0000000000000628
+t1296448955
+s1576
+i"HuffPuffStorage.h"
+i"UIImageExtension.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffViewController.h
+c000000004D61CA390000000000000220
+t1298254393
+s544
+i<UIKit/UIKit.h>
+i"HuffPuffPig.h"
+i"HuffPuffWolf.h"
+i"HuffPuffBlock.h"
+i"HuffPuffController.h"
+i"HuffPuffModel.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffViewController.m
+c000000004D468CB50000000000001922
+t1296469173
+s6434
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWolf.h
+c000000004D4662CE00000000000002E7
+t1296458446
+s743
+i<Foundation/Foundation.h>
+i"HuffPuffGameObject.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWolf.m
+c000000004D46467C00000000000009E1
+t1296451196
+s2529
+i"HuffPuffWolf.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/UIImageExtension.h
+c000000004D452769000000000000011D
+t1296377705
+s285
+i<Foundation/Foundation.h>
+
+N/Users/angadsg/Documents/PS5 Mod PS3/Classes/UIImageExtension.m
+c000000004D455E82000000000000020F
+t1296391810
+s527
+i"UIImageExtension.h"
+
+N/Users/angadsg/Documents/PS5 Mod PS3/HuffPuffViewController.xib
+c000000004D46A1280000000000007108
+t1296474408
+s28936
+
+N/Users/angadsg/Documents/PS5 Mod PS3/HuffPuff_Prefix.pch
+c000000004D41858400000000000000B9
+t1296139652
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/PS5 Mod PS3/MainWindow.xib
+c000000004D4185840000000000004D13
+t1296139652
+s19731
+
+N/Users/angadsg/Documents/PS5 Mod PS3/background.png
+c000000004D2F0A1800000000000307E4
+t1294928408
+s198628
+
+N/Users/angadsg/Documents/PS5 Mod PS3/block1.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Documents/PS5 Mod PS3/block2.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Documents/PS5 Mod PS3/block3.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Documents/PS5 Mod PS3/block4.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app
+t1296477310
+s782
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app.dSYM
+t1296477309
+s102
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+t1296477309
+s59232
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/HuffPuffViewController.nib
+t1296477307
+s2292
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/Info.plist
+t1296278456
+s987
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/MainWindow.nib
+t1296278463
+s1125
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/PkgInfo
+t1296278456
+s8
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist
+t1296278456
+s485
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/background.png
+t1296278466
+s153801
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block1.png
+t1296278465
+s5580
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block2.png
+t1296278465
+s3819
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block3.png
+t1296278465
+s624
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block4.png
+t1296278465
+s1829
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision
+t1296278468
+s10014
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/ground.png
+t1296278464
+s24017
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/iron.png
+t1296278465
+s624
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/pig.png
+t1296278465
+s4138
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/stone.png
+t1296278465
+s1829
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/straw.png
+t1296278465
+s5580
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/wolfs.png
+t1296278466
+s252078
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/wood.png
+t1296278466
+s3819
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuff.LinkFileList
+c000000004D46AC7B00000000000004D1
+t1296477307
+s1233
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o
+t1296477308
+s50660
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o
+t1296477308
+s55984
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o
+t1296477309
+s44548
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o
+t1296477309
+s40720
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o
+t1296477308
+s53752
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o
+t1296477309
+s10724
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o
+t1296477308
+s56164
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o
+t1296477309
+s54164
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o
+t1296477309
+s8396
+
+N/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o
+t1296278467
+s6420
+
+N/Users/angadsg/Documents/PS5 Mod PS3/ground.png
+c000000004D2F0A1A0000000000007161
+t1294928410
+s29025
+
+N/Users/angadsg/Documents/PS5 Mod PS3/iron.png
+c000000004D3D1F960000000000000211
+t1295851414
+s529
+
+N/Users/angadsg/Documents/PS5 Mod PS3/main.m
+c000000004D418584000000000000015B
+t1296139652
+s347
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/PS5 Mod PS3/pig.png
+c000000004D3D1F98000000000000121C
+t1295851416
+s4636
+
+N/Users/angadsg/Documents/PS5 Mod PS3/stone.png
+c000000004D3D1F9800000000000006A1
+t1295851416
+s1697
+
+N/Users/angadsg/Documents/PS5 Mod PS3/straw.png
+c000000004D3D1F9600000000000012A8
+t1295851414
+s4776
+
+N/Users/angadsg/Documents/PS5 Mod PS3/wolfs.png
+c000000004D3D1F98000000000004C969
+t1295851416
+s313705
+
+N/Users/angadsg/Documents/PS5 Mod PS3/wood.png
+c000000004D3D1F960000000000000C78
+t1295851414
+s3192
+
+N/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision
+c000000004D41649E000000000000271E
+t1296131230
+s10014
+
+N/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch.gch
+t1296278467
+s10446552
+
+N/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-bslmcngeryrqnueitfvdidwvvogq/HuffPuff_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-edzkgpeunwmefsgtvuilfvhjcfrg/HuffPuff_Prefix.pch.gch
+t2
+s0
+
+NHuffPuff-Info.plist
+c000000004D42397E00000000000004A5
+t1296185726
+s1189
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318170107#318170107#0(0"0(0#1#0"8600874080#0"0#
+
+CCodeSign "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app"
+r0
+
+CCodeSign "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app"
+r0
+
+CCodeSign /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+s318170109.976834
+e318170110.896758
+r1
+xCodeSign
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/HuffPuff.app318170109#318170110#0(0"0(0#0#67"/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app8618951488#638"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Marian Mihailescu (8LK38VM7LH)" --resource-rules=/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist --entitlements /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170107.955987
+e318170108.753859
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m318170107#318170108#0(0"0(0#0#63"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m8607474752#1727"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffAppDelegate.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffBlock.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffBlock.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170108.753955
+e318170108.948631
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock initPath:gamearea:palette:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:24: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock tap:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:90: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:95: warning: local declaration of 'image' hides instance variable
+lSLF07#2@65"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318170108#318170108#0(628"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock initPath:gamearea:palette:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:24: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m: In function '-[HuffPuffBlock tap:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:90: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m:95: warning: local declaration of 'image' hides instance variable3(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318170108#118#145#0(6@57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167403#24#0#24#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318170108#359#145#0(6@57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167403#90#0#90#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@52"Local declaration of 'image' hides instance variable318170108#504#124#0(6@57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m318167403#95#0#95#0#0"0(0#0#57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m8619254784#1715"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffBlock.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffBlock.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffGameObject.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffGameObject.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170108.948731
+e318170109.106204
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject translate:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:29: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject rotate:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:44: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject zoom:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:58: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: At top level:
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:66: warning: property 'objectType' requires method '-objectType' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@70"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318170108#318170109#0(1124"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject translate:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:29: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject rotate:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:44: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject zoom:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:58: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: At top level:/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:66: warning: property 'objectType' requires method '-objectType' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@94"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'318170108#112#171#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#29#0#29#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@94"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'318170109#392#171#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#44#0#44#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@94"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'318170109#670#171#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#58#0#58#0#61"incompatible Objective-C types initializing '*', expected '*'0(23@13"At top level:318170109#841#78#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#0#0#0#0#0"0(22@128"Property 'objectType' requires method '-objectType' to be defined - use @synthesize, @dynamic or provide a method implementation318170109#919#205#0(6@62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m318141169#66#0#66#0#0"0(0#0#62"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m8617685536#1725"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffGameObject.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffModel.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffModel.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170109.207780
+e318170109.304893
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m318170109#318170109#0(0"0(0#0#57"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m8618359232#1715"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffModel.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffModel.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffPig.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffPig.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170108.771795
+e318170108.942753
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m: In function '-[HuffPuffPig initPath:gamearea:palette:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m:28: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+lSLF07#2@63"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m318170108#318170108#0(257"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m: In function '-[HuffPuffPig initPath:gamearea:palette:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m:28: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast1(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318170108#114#143#0(6@55"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m318162082#28#0#28#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#55"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m8618887040#1711"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffPig.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffPig.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffStorage.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffStorage.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170109.106303
+e318170109.207679
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m318170109#318170109#0(0"0(0#0#59"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m8615329024#1719"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffStorage.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffStorage.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170107.957170
+e318170108.771695
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController load]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:143: warning: initialization makes pointer from integer without a cast
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:168: warning: initialization makes pointer from integer without a cast
+lSLF07#2@74"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m318170107#318170108#0(390"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController load]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:143: warning: initialization makes pointer from integer without a cast/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:168: warning: initialization makes pointer from integer without a cast2(22@56"Initialization makes pointer from integer without a cast318170108#114#138#0(6@66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m318161973#143#0#143#0#0"0(22@56"Initialization makes pointer from integer without a cast318170108#252#138#0(6@66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m318161973#168#0#168#0#0"0(0#0#66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m8606905184#1733"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffViewController.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/HuffPuffWolf.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/HuffPuffWolf.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170108.942929
+e318170109.172155
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m: In function '-[HuffPuffWolf initPath:gamearea:palette:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m:32: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+lSLF07#2@64"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m318170108#318170109#0(260"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m: In function '-[HuffPuffWolf initPath:gamearea:palette:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m:32: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast1(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast318170109#116#144#0(6@56"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m318143996#32#0#32#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#56"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m8617917248#1713"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffWolf.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuffWolf.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/Classes/UIImageExtension.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o "/Users/angadsg/Documents/PS5 Mod PS3/Classes/UIImageExtension.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318170109.172255
+e318170109.267383
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o
+x/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m318170109#318170109#0(0"0(0#0#60"/Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m8607076672#1721"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/UIImageExtension.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/UIImageExtension.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o "/Users/angadsg/Documents/PS5 Mod PS3/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o /Users/angadsg/Documents/HuffPuff/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317971267.678260
+e317971267.874037
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o
+x/Users/angadsg/Documents/HuffPuff/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/angadsg/Documents/HuffPuff/main.m317971267#317971267#0(0"0(0#0#40"/Users/angadsg/Documents/HuffPuff/main.m8617925632#1689"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/main.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/HuffPuffViewController.xib"
+r0
+
+CCompileXIB "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/angadsg/Documents/PS5 Mod PS3/HuffPuffViewController.xib"
+r0
+
+CCompileXIB "/Users/angadsg/Documents/PS5 Mod PS3/MainWindow.xib"
+r0
+
+CCompileXIB /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+s318170107.366061
+e318170107.955687
+r1
+xCompileXIB
+x/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+lSLF07#2@37"CompileXIB HuffPuffViewController.xib318170107#318170107#0(0"0(0#0#60"/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib8614925408#552"    cd /Users/angadsg/Documents/HuffPuff    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuffViewController.nib /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/angadsg/Documents/HuffPuff/MainWindow.xib
+s317971256.802533
+e317971263.802825
+r1
+xCompileXIB
+x/Users/angadsg/Documents/HuffPuff/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317971256#317971263#0(0"0(0#0#48"/Users/angadsg/Documents/HuffPuff/MainWindow.xib8618061600#528"    cd /Users/angadsg/Documents/HuffPuff    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/MainWindow.nib /Users/angadsg/Documents/HuffPuff/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png" background.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png" block1.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png" block2.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png" block3.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png" block4.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png" ground.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png" iron.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png" pig.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png" stone.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png" straw.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png" wolfs.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png" wood.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/background.png" background.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block1.png" block1.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block2.png" block2.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block3.png" block3.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/block4.png" block4.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/ground.png" ground.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/iron.png" iron.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/pig.png" pig.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/stone.png" stone.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/straw.png" straw.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/wolfs.png" wolfs.png
+r0
+
+CCopyPNGFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/wood.png" wood.png
+r0
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png background.png
+s317971263.748735
+e317971266.262612
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png
+xbackground.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/background.png background.png317971263#317971266#0(0"0(0#0#48"/Users/angadsg/Documents/HuffPuff/background.png8602924160#554"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/background.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/background.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png block1.png
+s317971264.970557
+e317971265.018066
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png
+xblock1.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/block1.png block1.png317971264#317971265#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block1.png8615619424#546"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/block1.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block1.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png block2.png
+s317971265.018168
+e317971265.048494
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png
+xblock2.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/block2.png block2.png317971265#317971265#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block2.png8613562304#546"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/block2.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block2.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png block3.png
+s317971265.048600
+e317971265.073339
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png
+xblock3.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/block3.png block3.png317971265#317971265#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block3.png8590252960#546"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/block3.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block3.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png block4.png
+s317971265.073458
+e317971265.100469
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png
+xblock4.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/block4.png block4.png317971265#317971265#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/block4.png8609907872#546"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/block4.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/block4.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png ground.png
+s317971263.802922
+e317971264.970456
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png
+xground.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/ground.png ground.png317971263#317971264#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/ground.png8618342816#546"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/ground.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ground.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png iron.png
+s317971265.100565
+e317971265.134920
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png
+xiron.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/iron.png iron.png317971265#317971265#0(0"0(0#0#42"/Users/angadsg/Documents/HuffPuff/iron.png8590248480#542"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/iron.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/iron.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png pig.png
+s317971265.135023
+e317971265.185215
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png
+xpig.png
+lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/pig.png pig.png317971265#317971265#0(0"0(0#0#41"/Users/angadsg/Documents/HuffPuff/pig.png8609758624#540"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/pig.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/pig.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png stone.png
+s317971265.185308
+e317971265.210536
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png
+xstone.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/stone.png stone.png317971265#317971265#0(0"0(0#0#43"/Users/angadsg/Documents/HuffPuff/stone.png8600507872#544"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/stone.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/stone.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png straw.png
+s317971265.210663
+e317971265.240295
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png
+xstraw.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/straw.png straw.png317971265#317971265#0(0"0(0#0#43"/Users/angadsg/Documents/HuffPuff/straw.png8618310240#544"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/straw.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/straw.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png wolfs.png
+s317971265.240395
+e317971266.383564
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png
+xwolfs.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/wolfs.png wolfs.png317971265#317971266#0(0"0(0#0#43"/Users/angadsg/Documents/HuffPuff/wolfs.png8617537504#544"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/wolfs.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wolfs.png0#
+
+CCopyPNGFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png wood.png
+s317971266.262783
+e317971266.294900
+r1
+xCopyPNGFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png
+xwood.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/HuffPuff.app/wood.png wood.png317971266#317971266#0(0"0(0#0#42"/Users/angadsg/Documents/HuffPuff/wood.png8603278400#542"    cd /Users/angadsg/Documents/HuffPuff    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/angadsg/Documents/HuffPuff/wood.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/wood.png0#
+
+CCpResource build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317971256.506265
+e317971256.802418
+r1
+xCpResource
+xbuild/Debug-iphoneos/HuffPuff.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317971256#317971256#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8617337088#485"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app0#
+
+CGenerateDSYMFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM" "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff"
+r0
+
+CGenerateDSYMFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app.dSYM" "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/HuffPuff"
+r0
+
+CGenerateDSYMFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+s318170109.805474
+e318170109.906212
+r1
+xGenerateDSYMFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/HuffPuff.app.dSYM build/Debug-iphoneos/HuffPuff.app/HuffPuff318170109#318170109#0(0"0(0#0#76"/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff8617925920#350"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app.dSYM0#
+
+CLd "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff" normal armv7
+r0
+
+CLd "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/HuffPuff" normal armv7
+r0
+
+CLd /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff normal armv7
+s318170109.304986
+e318170109.805380
+r1
+xLd
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff
+xnormal
+xarmv7
+lSLF07#2@81"Link /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff318170109#318170109#0(0"0(0#0#0"8614832096#802"    cd /Users/angadsg/Documents/HuffPuff    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -filelist /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/Objects-normal/armv7/HuffPuff.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/HuffPuff0#
+
+CProcessInfoPlistFile "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist" HuffPuff-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/Info.plist" HuffPuff-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist HuffPuff-Info.plist
+s317971256.609166
+e317971256.627489
+r1
+xProcessInfoPlistFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist
+xHuffPuff-Info.plist
+lSLF07#2@27"Process HuffPuff-Info.plist317971256#317971256#0(0"0(0#0#53"/Users/angadsg/Documents/HuffPuff/HuffPuff-Info.plist8601017824#546"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HuffPuff-Info.plist -genpkginfo /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/ResourceRules.plist -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/Info.plist0#
+
+CProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317971266.383726
+e317971267.678153
+r1
+xProcessPCH
+x/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch.gch
+xHuffPuff_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HuffPuff_Prefix.pch317971266#317971267#0(0"0(0#0#53"/Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch8613742816#1591"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources/armv7 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/DerivedSources -c /Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch -o /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-aobfrucmobxxphfebpimstwdopwt/HuffPuff_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-bslmcngeryrqnueitfvdidwvvogq/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-edzkgpeunwmefsgtvuilfvhjcfrg/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision" "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision" "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision" /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision
+s317971268.875488
+e317971268.936896
+r1
+xProcessProductPackaging
+x/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision" build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision317971268#317971268#0(0"0(0#0#92"/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision8600643584#416"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/angadsg/Library/MobileDevice/Provisioning Profiles/5D4A455C-E598-43C4-8395-EA047D1F4AD2.mobileprovision" -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Users/angadsg/Documents/HuffPuff/HuffPuffStore.plist "/Users/angadsg/Documents/PS5 Mod PS3/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent"
+r0
+
+CProcessProductPackaging /Users/angadsg/Documents/HuffPuff/HuffPuffStore.plist /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent
+s317971268.957284
+e317971268.979072
+r1
+xProcessProductPackaging
+x/Users/angadsg/Documents/HuffPuff/HuffPuffStore.plist
+x/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent
+lSLF07#2@109"ProcessProductPackaging HuffPuffStore.plist build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent317971268#317971268#0(0"0(0#0#99"/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent8603297728#390"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/angadsg/Documents/HuffPuff/HuffPuffStore.plist -entitlements -format xml -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphoneos/HuffPuff.build/HuffPuff.xcent0#
+
+CTouch "/Users/angadsg/Desktop/untitled folder/CS3217-PS3-Angad Singh/HuffPuff/build/Debug-iphoneos/HuffPuff.app"
+r0
+
+CTouch "/Users/angadsg/Documents/PS5 Mod PS3/build/Debug-iphoneos/HuffPuff.app"
+r0
+
+CTouch /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+s318170109.906669
+e318170109.976660
+r1
+xTouch
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app
+lSLF07#2@73"Touch /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app318170109#318170109#0(0"0(0#0#0"8608159456#255"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/angadsg/Documents/HuffPuff/build/Debug-iphoneos/HuffPuff.app0#
+

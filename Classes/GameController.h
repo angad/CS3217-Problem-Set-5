@@ -15,8 +15,10 @@
 #import "HuffPuffBlock.h"
 #import "HuffPuffWind.h"
 #import "HuffPuffArrow.h"
-#import "HuffPuffStorage.h"
 #import "HuffPuffPower.h"
+#import "HuffPuffPigSmoke.h"
+#import "HuffPuffPigHealth.h"
+#import "HuffPuffStorage.h"
 
 @interface GameController : NSObject {
 
@@ -26,7 +28,6 @@
 	HuffPuffWolf *wolf;
 	HuffPuffBlock *block;
 	
-	
 	UIView *palette;
 	HuffPuffModel *pigM;
 	HuffPuffModel *wolfM;
@@ -34,9 +35,23 @@
 	HuffPuffStorage *storage;
 }
 
-static HuffPuffPower *power;
+
+//Static variables to maintain game-wide information
+static int score;
+static double pigHealth;
+static int pigDead;
+static int blocksCount;
+static double strawStrength;
+static double woodStrength;
+static double metalStrength;
+static double stoneStrength;
+
 static UIView *gamearea;
+static HuffPuffPower *power;
 static HuffPuffWind *wind;
+static HuffPuffPigSmoke *smoke;
+static HuffPuffPigHealth *health;
+
 static HuffPuffArrow *arrow;
 static ChipmunkSpace *space;
 static NSMutableArray *models;
@@ -52,5 +67,6 @@ static NSMutableArray *objects;
 -(void)separateCollision:(cpArbiter *)arbiter space:(ChipmunkSpace *)space;
 -(void)postSolveCollision:(cpArbiter *)arbiter space:(ChipmunkSpace *)space;
 -(void)update;
-
++(void)wolfWind:(CGRect)frame;
++(void)windStopped:(NSTimer *)theTimer;
 @end

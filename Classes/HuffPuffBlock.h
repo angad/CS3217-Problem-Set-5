@@ -17,6 +17,7 @@
 
 @property (readonly) NSMutableArray *blocks;
 
+
 -(id)initPath:(NSString *)img gamearea:(UIScrollView *)g palette:(UIView*)p;
 -(void)updatePosition;
 -(void)removeGestureRecognizers;

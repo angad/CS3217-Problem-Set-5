@@ -15,4 +15,6 @@
 	
 }
 
+
+-(id)initPath:(NSString *)img;
 @end

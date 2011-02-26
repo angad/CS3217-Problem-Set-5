@@ -28,11 +28,10 @@
 	shape = [ChipmunkPolyShape boxWithBody:body width:30 height:130];
 	shape.elasticity = 0.3;
 	shape.friction = 0.3;
-	shape.collisionType = [HuffPuffBlock class];
+	shape.collisionType = @"block1.png";
 	shape.data = self;
 	chipmunkObjects = [ChipmunkObjectFlatten(body, shape, nil) retain];
 	
-	view.tag = @"block1.png";
 	view.userInteractionEnabled = YES;
 	view.frame = CGRectMake(200, 10, 50, 50);
 	
@@ -70,6 +69,16 @@
 	[view addGestureRecognizer:pan];
 	
 	return self;
+}
+
+-(void)setCollisionType:(NSString*)type
+{
+	shape.collisionType = type;
+}
+
+-(void)dataset:(NSString*)type
+{
+	shape.data = type;
 }
 
 -(void)translate:(UIGestureRecognizer *)gesture

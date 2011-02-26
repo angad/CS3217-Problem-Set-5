@@ -1,0 +1,16 @@
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController viewDidLoad]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:73: warning: no '-initPath:gamearea:' method found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:73: warning: (Messages without a matching method signature
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:73: warning: will be assumed to return 'id' and accept
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:73: warning: '...' as arguments.)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:74: warning: no '-initPath:gamearea:' method found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:75: warning: no '-initPath:gamearea:' method found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController addBlock]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:84: warning: no '-initPath:gamearea:' method found
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:85: warning: local declaration of 'b' hides instance variable
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController save]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:89: warning: 'HuffPuffPig' may not respond to '-save'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:90: warning: 'HuffPuffWolf' may not respond to '-save'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:91: warning: 'HuffPuffBlock' may not respond to '-save'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController buttonPressed:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:123: warning: format not a string literal and no format arguments

@@ -1,0 +1,297 @@
+THuffPuff
+v7
+r0
+t317834227.336764
+cCheck dependencies
+cProcessInfoPlistFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist HuffPuff-Info.plist
+cCompileXIB /Users/angadsg/Documents/HuffPuff/MainWindow.xib
+cCompileXIB /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/background.png background.png
+cCpResource build/Debug-iphonesimulator/HuffPuff.app/ground.png ground.png
+cProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o /Users/angadsg/Documents/HuffPuff/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff normal i386
+cGenerateDSYMFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+cTouch /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.h
+c000000004D41858400000000000001D6
+t1296139652
+s470
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m
+c000000004D41858400000000000007AA
+t1296139652
+s1962
+i"HuffPuffAppDelegate.h"
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.h
+c000000004D418C6F0000000000000132
+t1296141423
+s306
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m
+c000000004D418C660000000000000BA6
+t1296141414
+s2982
+i"HuffPuffViewController.h"
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+c000000004D418AA7000000000000660A
+t1296140967
+s26122
+
+N/Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch
+c000000004D41858400000000000000B9
+t1296139652
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/angadsg/Documents/HuffPuff/MainWindow.xib
+c000000004D4185840000000000004D13
+t1296139652
+s19731
+
+N/Users/angadsg/Documents/HuffPuff/background.png
+c000000004D2F0A1800000000000307E4
+t1294928408
+s198628
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+t1296141427
+s306
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM
+t1296141427
+s102
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+t1296141427
+s18208
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuffViewController.nib
+t1296141425
+s2056
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist
+t1296141423
+s802
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/MainWindow.nib
+t1296141425
+s1125
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/PkgInfo
+t1296141423
+s8
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/background.png
+t1296141425
+s198628
+
+N/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/ground.png
+t1296141425
+s29025
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuff.LinkFileList
+c000000004D418C6F0000000000000186
+t1296141423
+s390
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o
+t1296141426
+s50192
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o
+t1296141426
+s43676
+
+N/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o
+t1296141426
+s6292
+
+N/Users/angadsg/Documents/HuffPuff/ground.png
+c000000004D2F0A1A0000000000007161
+t1294928410
+s29025
+
+N/Users/angadsg/Documents/HuffPuff/main.m
+c000000004D418584000000000000015B
+t1296139652
+s347
+i<UIKit/UIKit.h>
+
+N/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch
+t1296141426
+s15453392
+
+NHuffPuff-Info.plist
+c000000004D41858400000000000004D6
+t1296139652
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317834223#317834223#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834226.586455
+e317834226.729230
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m317834226#317834226#0(0"0(0#0#63"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m8602786496#1917"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffAppDelegate.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffAppDelegate.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834226.699679
+e317834226.777064
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o
+x/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController buttonPressed:]':
+o/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:92: warning: format not a string literal and no format arguments
+lSLF07#2@74"Compile /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m317834226#317834226#0(256"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m: In function '-[HuffPuffViewController buttonPressed:]':/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m:92: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments317834226#124#132#0(6@66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m317834214#92#0#92#0#51"format not a string literal and no format arguments0(0#0#66"/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m8599480160#1923"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffViewController.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuffViewController.o0#
+
+CCompileC build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o /Users/angadsg/Documents/HuffPuff/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834226.585106
+e317834226.699577
+r1
+xCompileC
+xbuild/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o
+x/Users/angadsg/Documents/HuffPuff/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/angadsg/Documents/HuffPuff/main.m317834226#317834226#0(0"0(0#0#40"/Users/angadsg/Documents/HuffPuff/main.m8603521280#1879"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -include /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch -c /Users/angadsg/Documents/HuffPuff/main.m -o /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+s317834223.452361
+e317834225.089354
+r1
+xCompileXIB
+x/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB HuffPuffViewController.xib317834223#317834225#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib8604120832#580"    cd /Users/angadsg/Documents/HuffPuff    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuffViewController.nib /Users/angadsg/Documents/HuffPuff/HuffPuffViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/angadsg/Documents/HuffPuff/MainWindow.xib
+s317834223.430608
+e317834225.036638
+r1
+xCompileXIB
+x/Users/angadsg/Documents/HuffPuff/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317834223#317834225#0(0"0(0#0#48"/Users/angadsg/Documents/HuffPuff/MainWindow.xib8604200384#556"    cd /Users/angadsg/Documents/HuffPuff    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/MainWindow.nib /Users/angadsg/Documents/HuffPuff/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/background.png background.png
+s317834225.036838
+e317834225.124784
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png317834225#317834225#0(0"0(0#0#48"/Users/angadsg/Documents/HuffPuff/background.png8599335520#458"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/background.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CCpResource build/Debug-iphonesimulator/HuffPuff.app/ground.png ground.png
+s317834225.037649
+e317834225.120214
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HuffPuff.app/ground.png
+xground.png
+lSLF07#2@15"Copy ground.png317834225#317834225#0(0"0(0#0#44"/Users/angadsg/Documents/HuffPuff/ground.png8598689568#454"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/angadsg/Documents/HuffPuff/ground.png /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+
+CGenerateDSYMFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+s317834227.243995
+e317834227.319812
+r1
+xGenerateDSYMFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/HuffPuff.app.dSYM build/Debug-iphonesimulator/HuffPuff.app/HuffPuff317834227#317834227#0(0"0(0#0#83"/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff8604233760#371"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app.dSYM0#
+
+CLd /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff normal i386
+s317834226.777173
+e317834227.243899
+r1
+xLd
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff
+xnormal
+xi386
+lSLF07#2@88"Link /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff317834226#317834227#0(0"0(0#0#0"8604511072#880"    cd /Users/angadsg/Documents/HuffPuff    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -filelist /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/Objects-normal/i386/HuffPuff.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/HuffPuff0#
+
+CProcessInfoPlistFile /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist HuffPuff-Info.plist
+s317834223.397792
+e317834223.430518
+r1
+xProcessInfoPlistFile
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist
+xHuffPuff-Info.plist
+lSLF07#2@27"Process HuffPuff-Info.plist317834223#317834223#0(0"0(0#0#53"/Users/angadsg/Documents/HuffPuff/HuffPuff-Info.plist30681223440564324#467"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HuffPuff-Info.plist -genpkginfo /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app/Info.plist0#
+
+CProcessPCH /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch HuffPuff_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317834225.125054
+e317834226.584893
+r1
+xProcessPCH
+x/var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch
+xHuffPuff_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HuffPuff_Prefix.pch317834225#317834226#0(0"0(0#0#53"/Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch8604069664#1775"    cd /Users/angadsg/Documents/HuffPuff    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-generated-files.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-own-target-headers.hmap -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-all-target-headers.hmap -iquote /Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/HuffPuff-project-headers.hmap -F/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator -I/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/include -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources/i386 -I/Users/angadsg/Documents/HuffPuff/build/HuffPuff.build/Debug-iphonesimulator/HuffPuff.build/DerivedSources -c /Users/angadsg/Documents/HuffPuff/HuffPuff_Prefix.pch -o /var/folders/Q+/Q+mkI6KAEhG-hB6E-OdfB++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HuffPuff_Prefix-catieqprnkdrbvesqtaazjruqtdg/HuffPuff_Prefix.pch.gch0#
+
+CTouch /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+s317834227.319913
+e317834227.336580
+r1
+xTouch
+x/Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app
+lSLF07#2@80"Touch /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app317834227#317834227#0(0"0(0#0#0"8603773504#269"    cd /Users/angadsg/Documents/HuffPuff    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/angadsg/Documents/HuffPuff/build/Debug-iphonesimulator/HuffPuff.app0#
+

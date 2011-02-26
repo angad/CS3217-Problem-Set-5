@@ -25,6 +25,10 @@
 		2C265A301314021A0019936E /* libObjectiveChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C265A2F1314021A0019936E /* libObjectiveChipmunk-iPhone.a */; };
 		2C265A7A131402810019936E /* libObjectiveChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C265A78131402810019936E /* libObjectiveChipmunk-iPhone.a */; };
 		2C69E79D1312489D00C15FF7 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69E79C1312489D00C15FF7 /* GameController.m */; };
+		2C8B1F5713178CDC00C79574 /* HuffPuffPigSmoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B1F5613178CDC00C79574 /* HuffPuffPigSmoke.m */; };
+		2C8B201A131810EC00C79574 /* HuffPuffScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B2019131810EC00C79574 /* HuffPuffScore.m */; };
+		2C8B20F0131826C100C79574 /* HuffPuffPigHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B20EF131826C100C79574 /* HuffPuffPigHealth.m */; };
+		2C8B21031318280A00C79574 /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B21021318280A00C79574 /* health.png */; };
 		2C8E6F2612F55ED20035064D /* UIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E6F2512F55ED20035064D /* UIImageExtension.m */; };
 		2C8E709812F581BF0035064D /* HuffPuffModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E709712F581BF0035064D /* HuffPuffModel.m */; };
 		2CA78634131410310022A258 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA78633131410310022A258 /* QuartzCore.framework */; };
@@ -108,6 +112,19 @@
 		2C265A79131402810019936E /* ObjectiveChipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveChipmunk.h; sourceTree = "<group>"; };
 		2C69E79B1312489D00C15FF7 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		2C69E79C1312489D00C15FF7 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		2C8B1F2213178B1400C79574 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		2C8B1F2313178B1400C79574 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		2C8B1F2413178B1400C79574 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		2C8B1F2513178B1400C79574 /* font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font.png; sourceTree = "<group>"; };
+		2C8B1F2613178B1400C79574 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		2C8B1F2713178B1400C79574 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		2C8B1F5513178CDC00C79574 /* HuffPuffPigSmoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffPigSmoke.h; sourceTree = "<group>"; };
+		2C8B1F5613178CDC00C79574 /* HuffPuffPigSmoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffPigSmoke.m; sourceTree = "<group>"; };
+		2C8B2018131810EC00C79574 /* HuffPuffScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffScore.h; sourceTree = "<group>"; };
+		2C8B2019131810EC00C79574 /* HuffPuffScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffScore.m; sourceTree = "<group>"; };
+		2C8B20EE131826C100C79574 /* HuffPuffPigHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffPigHealth.h; sourceTree = "<group>"; };
+		2C8B20EF131826C100C79574 /* HuffPuffPigHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffPigHealth.m; sourceTree = "<group>"; };
+		2C8B21021318280A00C79574 /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
 		2C8E6F2412F55ED20035064D /* UIImageExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtension.h; sourceTree = "<group>"; };
 		2C8E6F2512F55ED20035064D /* UIImageExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtension.m; sourceTree = "<group>"; };
 		2C8E709612F581BF0035064D /* HuffPuffModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffModel.h; sourceTree = "<group>"; };
@@ -335,6 +352,12 @@
 				2C19FF6413167175009A5D43 /* HuffPuffArrow.m */,
 				2CD010661316EC85002F253C /* HuffPuffPower.h */,
 				2CD010671316EC85002F253C /* HuffPuffPower.m */,
+				2C8B1F5513178CDC00C79574 /* HuffPuffPigSmoke.h */,
+				2C8B1F5613178CDC00C79574 /* HuffPuffPigSmoke.m */,
+				2C8B2018131810EC00C79574 /* HuffPuffScore.h */,
+				2C8B2019131810EC00C79574 /* HuffPuffScore.m */,
+				2C8B20EE131826C100C79574 /* HuffPuffPigHealth.h */,
+				2C8B20EF131826C100C79574 /* HuffPuffPigHealth.m */,
 				2CDC631712F34E7800BD9826 /* HuffPuffGameObject.h */,
 				2CDC635712F352FA00BD9826 /* HuffPuffGameObject.m */,
 				2C69E79B1312489D00C15FF7 /* GameController.h */,
@@ -346,6 +369,13 @@
 		2CE6A68E12F1C268001EC24F /* Game Art */ = {
 			isa = PBXGroup;
 			children = (
+				2C8B21021318280A00C79574 /* health.png */,
+				2C8B1F2213178B1400C79574 /* cloud1.png */,
+				2C8B1F2313178B1400C79574 /* cloud2.png */,
+				2C8B1F2413178B1400C79574 /* cloud3.png */,
+				2C8B1F2513178B1400C79574 /* font.png */,
+				2C8B1F2613178B1400C79574 /* heart.png */,
+				2C8B1F2713178B1400C79574 /* smoke.png */,
 				2C206F8A1315808500937B56 /* breath-bar.png */,
 				2C206F8B1315808500937B56 /* direction-arorw-selected.png */,
 				2C206F8C1315808500937B56 /* direction-arrow.png */,
@@ -435,6 +465,7 @@
 				2C206F911315808500937B56 /* direction-arrow.png in Resources */,
 				2C206F921315808500937B56 /* direction-degree.png in Resources */,
 				2C206F931315808500937B56 /* windblow.png in Resources */,
+				2C8B21031318280A00C79574 /* health.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +490,9 @@
 				2C206FA913158BA300937B56 /* HuffPuffWind.m in Sources */,
 				2C19FF6513167175009A5D43 /* HuffPuffArrow.m in Sources */,
 				2CD010681316EC85002F253C /* HuffPuffPower.m in Sources */,
+				2C8B1F5713178CDC00C79574 /* HuffPuffPigSmoke.m in Sources */,
+				2C8B201A131810EC00C79574 /* HuffPuffScore.m in Sources */,
+				2C8B20F0131826C100C79574 /* HuffPuffPigHealth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

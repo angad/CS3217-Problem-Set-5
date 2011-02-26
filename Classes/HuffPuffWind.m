@@ -32,7 +32,7 @@
 	image = [UIImage imageWithCGImage:partOfImageAsCG];
 	view = [[UIImageView alloc] initWithImage:image];
 	view.animationImages = windSprite;
-	view.animationDuration = 1;
+	view.animationDuration = 2;
 	view.animationRepeatCount = 1;
 	
 	cpFloat mass = 5.0;
@@ -47,8 +47,6 @@
 	shape.data = self;
 	chipmunkObjects = [ChipmunkObjectFlatten(body, shape, nil) retain];
 	
-	//using tag to store objecttype information
-	view.tag = @"windblow.png";
 	view.userInteractionEnabled = YES;
 	return self;
 }
@@ -56,8 +54,5 @@
 -(void)updatePosition{
 	view.transform = body.affineTransform;
 	view.center = [body world2local:body.pos];
-
-	//NSLog(@"%f %f %f %f", view.frame.origin.x, view.frame.origin.y, view.frame.size.width, view.frame.size.height);
-
 }
 @end

@@ -8,9 +8,8 @@
 
 #import "HuffPuffPower.h"
 
-
 @implementation HuffPuffPower
-@synthesize image, view ,power;
+@synthesize image, view, power;
 
 -(id)initPath:(NSString*)img
 {
@@ -23,11 +22,13 @@
 	double width = 500;
 	double height = 21;
 	int j;
+	//Power increase sprite
 	for (j=0; j<75; j++) {
 		width -= 5;
 			CGImageRef partOfImageAsCG = CGImageCreateWithImageInRect(imageToSplit, CGRectMake(0, 0, width, height));
 			[powerSprite addObject:[UIImage imageWithCGImage:partOfImageAsCG]];
 	}
+	//Power decrease sprite
 	for (j=0; j<75; j++) {
 		width += 5;
 		CGImageRef partOfImageAsCG = CGImageCreateWithImageInRect(imageToSplit, CGRectMake(0, 0, width, height));
@@ -39,29 +40,36 @@
 	
 	view.animationImages = powerSprite;
 	view.animationDuration = 3;
+	//view.animationRepeatCount = 1;
+
+	x = 1;  //Factor with which to increase or decrease the power
 	
-	x = 1;
+	//Timer callback for the animation
 	[NSTimer scheduledTimerWithTimeInterval:3.0/150.0
 									 target:self
 								   selector:@selector(powerCounter:)
 								   userInfo:nil
 									repeats:YES];
-	
-	
 	[view startAnimating];
 	return self;
 }
 
 -(void)powerCounter:(NSTimer *)timer {
-	power +=x;
 	
+	/*if (![view isAnimating]) {
+		power = 0;
+		[view startAnimating];
+		return;
+	}*/
+	
+	power +=x;
+	//NSLog(@"power : %i", power);
 	if (power == 75) {
 		x = -1;
 	}
 	if (power == 0) {
 		x = 1;
 	}
-	
 }
 
 

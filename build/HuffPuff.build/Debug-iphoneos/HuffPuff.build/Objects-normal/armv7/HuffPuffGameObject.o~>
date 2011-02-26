@@ -1,0 +1,37 @@
+In file included from /Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:9:
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.h:24: error: expected specifier-qualifier-list before 'HuffPuffPig'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.h:25: error: expected specifier-qualifier-list before 'HuffPuffWolf'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.h:26: error: expected specifier-qualifier-list before 'HuffPuffBlock'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:12: error: no declaration of property 'coordinates' found in the interface
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:12: error: no declaration of property 'angle' found in the interface
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:12: error: no declaration of property 'scale' found in the interface
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject init]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:16: error: 'coordinates' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:16: error: (Each undeclared identifier is reported only once
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:16: error: for each function it appears in.)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:17: error: 'angle' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:18: error: 'scale' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject checkObjectType:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:30: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject saveTranslate:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:57: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:58: error: 'coordinates' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:59: error: 'checkObjectType' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:60: error: 'angle' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:61: error: 'scale' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject saveRotate:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:69: error: 'angle' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject saveZoom:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:75: error: 'scale' undeclared (first use in this function)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject translate:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:94: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:98: warning: 'HuffPuffGameObject' may not respond to '-save:'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:98: warning: (Messages without a matching method signature
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:98: warning: will be assumed to return 'id' and accept
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:98: warning: '...' as arguments.)
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject rotate:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:110: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:113: warning: 'HuffPuffGameObject' may not respond to '-save:'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m: In function '-[HuffPuffGameObject zoom:]':
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:126: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct UIImageView *'
+/Users/angadsg/Documents/HuffPuff/Classes/HuffPuffGameObject.m:128: warning: 'HuffPuffGameObject' may not respond to '-save:'

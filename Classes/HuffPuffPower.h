@@ -17,5 +17,5 @@
 }
 
 @property (readonly) int power;
-
+-(id)initPath:(NSString *)img;
 @end

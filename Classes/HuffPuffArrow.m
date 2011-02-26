@@ -34,6 +34,8 @@
 	{
 		UIImageView *img = panGesture.view;
 		CGPoint translation = [panGesture translationInView:img.superview];		
+		
+		//Transforming the X-Coordinates of translation to rotation, after dividing by a factor of 100
 		img.transform = CGAffineTransformRotate(img.transform, translation.x/100);
 		[panGesture setTranslation:CGPointZero inView:img.superview];
 	}

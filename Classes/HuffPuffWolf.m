@@ -19,6 +19,8 @@
 	double origin_x = 0;
 	double origin_y = 0;
 	int i, j;
+	
+	
 	for (j=0; j<3; j++) {
 		origin_y = 150*j;
 		for (i=0; i<5; i++) 
@@ -38,6 +40,7 @@
 	CGImageRef partOfImageAsCG = CGImageCreateWithImageInRect(imageToSplit, CGRectMake(0, 0, 225, 150));
 	image = [UIImage imageWithCGImage:partOfImageAsCG];
 	view = [[UIImageView alloc] initWithImage:image];
+	
 	view.animationImages = wolfSprite;
 	view.animationDuration = 1.5;
 	view.animationRepeatCount = 1;
@@ -56,12 +59,11 @@
 	shape.friction = 0.3;
 	shape.collisionType = [HuffPuffWolf class];
 	shape.data = self;
-	chipmunkObjects = [ChipmunkObjectFlatten(body, shape, nil) retain];
+	chipmunkObjects = [ChipmunkObjectFlatten( body, shape, nil) retain];
 	
 	//Updating the model
 	[model setFrame:view.frame];
 	[model setTransform:view.transform];
-	[model setInGamearea:NO];
 	[model setPath:img];
 
 	pan =[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(translate:)];
@@ -109,7 +111,6 @@
 		if ([gamearea pointInside:view.frame.origin withEvent:nil])
 		{
 			[gamearea addSubview:gesture.view];
-			[model setInGamearea:YES];
 			CGPoint newOrigin = [palette convertPoint:gesture.view.frame.origin toView:gamearea];
 			gesture.view.frame = CGRectMake(newOrigin.x, newOrigin.y, 225, 150);
 			[GameController addObject:self];

@@ -40,7 +40,6 @@
 	//updating the model
 	[model setFrame:view.frame];
 	[model setTransform:view.transform];
-	[model setInGamearea:NO];
 	[model setPath:img];
 	
 	flag = 0;
@@ -83,7 +82,6 @@
 			view.frame = CGRectMake(newOrigin.x, newOrigin.y, 88, 88);
 			body.pos = view.center;
 			[gamearea addSubview:view];
-			[model setInGamearea:YES];
 			[GameController addObject:self];
 		}
 		

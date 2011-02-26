@@ -19,9 +19,11 @@
 {
 	NSMutableData *data = [[NSMutableData alloc] init];
 	NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
-	[archiver encodeObject:obj forKey:file];
+	NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+	NSString *filePath = [rootPath stringByAppendingPathComponent:file];
+	[archiver encodeRootObject:obj];
 	[archiver finishEncoding];
-	BOOL success = [data writeToFile:file atomically:YES]; 
+	BOOL success = [data writeToFile:filePath atomically:YES]; 
 	[archiver release];
 	[data release];
 	NSLog(@"%i", success);
@@ -30,41 +32,20 @@
 
 +(NSMutableArray*)loadFile:(NSString*)file
 {		
-	NSMutableArray* gamearea;
+	NSMutableArray* models;
 	NSData *data;
 	NSKeyedUnarchiver *unarchiver;
-	//NSString *archivePath = [NSTemporaryDirectory() stringByAppendingPathComponent:];
-	
-	data = [NSData dataWithContentsOfFile:file];
+	NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+	NSString *filePath = [rootPath stringByAppendingPathComponent:file];
+
+	data = [NSData dataWithContentsOfFile:filePath];
 	unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
+
 	// Customize unarchiver here
-	gamearea = [unarchiver decodeObjectForKey:file];
+	models = [unarchiver decodeObject];
 	[unarchiver finishDecoding];
 	[unarchiver release];
-	return gamearea;
+	return models;
 }
-
-/*
-+(BOOL)store:(id)obj:(NSString*)key
-{
-		
-}
-
-+(id)load:(NSString*)key
-{
-	id obj;
-	NSData *data;
-	NSKeyedUnarchiver *unarchiver;
-	data = [NSData dataWithContentsOfFile:[NSString stringWithFormat:@"%@.archive", key]];
-	unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
-	obj = [unarchiver decodeObjectForKey:key];
-	NSLog(@"%@",key);
-	
-	[unarchiver finishDecoding];
-	[unarchiver release];
-	
-	return obj;
-}
-*/
 
 @end

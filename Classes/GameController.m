@@ -12,10 +12,32 @@
 @implementation GameController
 
 static NSString *borderType = @"borderType";
+static int score;
+static double pigHealth;
+static int pigDead;
+static int blocksCount;
+static double strawStrength;
+static double woodStrength;
+static double metalStrength;
+static double stoneStrength;
+static HuffPuffWolf *wolf;
 
--(id)initWithGameArea:(UIView*)g Palette:(UIView*)p
+static UIView *gamearea;
+static HuffPuffPower *power;
+static HuffPuffWind *wind;
+static HuffPuffPigSmoke *smoke;
+static HuffPuffPigHealth *health;
+
+static HuffPuffArrow *arrow;
+ChipmunkSpace *space;
+static NSMutableArray *models;
+static NSMutableArray *objects;
+
+-(id)initWithGameArea:(UIView*)g Palette:(UIView*)p score:(UILabel*)s
 {	
 	score = 0;
+	scoreLabel = s;
+	scoreLabel.text = [NSString stringWithFormat:@"%i", score];
 	
 	pigDead = 0;
 	storage = [[HuffPuffStorage alloc] init];
@@ -23,10 +45,7 @@ static NSString *borderType = @"borderType";
 	models = [[NSMutableArray alloc] init];
 	gamearea = g;
 	palette = p;
-	  
 	blocksCount = 0;
-	
-	[gamearea setBackgroundColor:([UIColor redColor])];
 	
 	int i;
 	for (i=0; i<objects.count; i++) 
@@ -44,6 +63,10 @@ static NSString *borderType = @"borderType";
 	[palette addSubview:[wolf view]];
 
 	return self;
+}
+
+-(void)updateScore{
+	scoreLabel.text = [NSString stringWithFormat:@"%i", score];	
 }
 
 -(void)removeAllGestureRecognizers
@@ -69,8 +92,11 @@ static NSString *borderType = @"borderType";
 	health = [[HuffPuffPigHealth alloc]initPath:@"health.png"];
 	[gamearea addSubview:[health view]];
 	
+	scoreImg = [[HuffPuffScore alloc] initPath:@"score.png"];
+	[gamearea addSubview:[scoreImg view]];
+	
 	space = [[ChipmunkSpace alloc] init];
-	CGRect spaceBounds = CGRectMake(0, 0, 1400, 480);
+	CGRect spaceBounds = CGRectMake(0, 0, 1024, 648);
 	[space addBounds:spaceBounds thickness:10.0f elasticity:1.0f friction:1.0f layers:CP_ALL_LAYERS group:CP_NO_GROUP collisionType:borderType];
 	space.gravity = cpvmult(cpv(0.0, 1.0), 100.0f);
 	int i;
@@ -159,7 +185,7 @@ static NSString *borderType = @"borderType";
 	
 	//Startanimating
 	[[wind view] startAnimating];
-	
+	[wolf removeTap];
 	//Timer callback for the wind's existance
 	[NSTimer scheduledTimerWithTimeInterval:2.0
 									 target:self
@@ -173,6 +199,7 @@ static NSString *borderType = @"borderType";
 	//Removes wind from physics engine and view
 	[[wind view] removeFromSuperview];
 	[space remove:wind];
+	[wolf addTap];
 }
 
 -(void)updateHealth{
@@ -208,6 +235,7 @@ static NSString *borderType = @"borderType";
 	//smoke.view.frame = pig.view.frame;
 	if (impulse > pigHealth) {
 		score++;
+		[self updateScore];
 		[space remove:pig];
 		[[pig view] removeFromSuperview];
 		pigDead = 1;
@@ -234,6 +262,7 @@ static NSString *borderType = @"borderType";
 
 	if (impulse > pigHealth) {
 		score++;
+		[self updateScore];
 		[space remove:pig];
 		[[pig view] removeFromSuperview];
 		pigDead = 1;
@@ -390,13 +419,62 @@ static NSString *borderType = @"borderType";
 	}
 	
 	NSString *fileName = @"save";
-	BOOL a = [HuffPuffStorage writeToFile:models :fileName];
+	BOOL a = [HuffPuffStorage writeToFile:models:fileName];
 	NSLog(@"%i", a);
 }
 
--(void)loadModel{
+-(void)loadModel
+{
 	NSString *fileName = @"save";
 	models = [HuffPuffStorage loadFile:fileName];
+	int i;
+	NSLog(@"%i", models.count);
+	HuffPuffModel *model;
+	
+	id *object;
+	for (i=0; i<objects.count; i++) 
+	{
+		if (![[[objects objectAtIndex:i] class] isEqual:[HuffPuffWolf class]])
+		{
+			[[[objects objectAtIndex:i] view] removeFromSuperview];
+			[space remove:[objects objectAtIndex:i]];
+		}
+	}
+	
+	[objects release];
+	objects = [[NSMutableArray alloc] init];
+	[objects addObject:wolf];
+	
+	for (i=0; i<models.count; i++) 
+	{
+		model = [models objectAtIndex:i];
+		
+		if ([model.path isEqual:@"pig.png"]) 
+		{
+			[pig release];
+			pig = [[HuffPuffPig alloc] initPath:model.path gamearea:gamearea palette:palette];
+			pig.view.frame = model.frame;
+			[[pig body] setPos:cpv(pig.view.center.x, pig.view.center.y)];
+			pig.view.transform = model.transform;
+			[gamearea addSubview:[pig view]];
+			[objects addObject:pig];
+		}
+		else if ([model.path isEqual:@"wolf.png"]) {
+		//	[wolf release];
+		//	wolf = [[HuffPuffWolf alloc] initPath:model.path gamearea:gamearea palette:palette];
+		//	pig.view.transform = model.transform;
+		//	[gamearea addSubview:[wolf view]];
+		}
+
+		else {
+			HuffPuffBlock* newBlock = [[HuffPuffBlock alloc] initPath:model.path gamearea:gamearea palette:palette];
+			newBlock.view.frame = model.frame;
+			[[newBlock body] setPos:cpv(newBlock.view.center.x, newBlock.view.center.y)];
+			newBlock.view.transform = model.transform;
+			[gamearea addSubview:[newBlock view]];
+			[objects addObject:newBlock];
+		}
+	}
 }
 
 @end

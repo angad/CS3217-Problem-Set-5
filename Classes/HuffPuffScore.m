@@ -11,4 +11,17 @@
 
 @implementation HuffPuffScore
 
+
+@synthesize image, view, pan;
+
+-(id)initPath:(NSString*)img
+{
+	image = [UIImage imageNamed:img];
+	view = [[UIImageView alloc] initWithImage:image];
+	
+	view.frame = CGRectMake(40, 10, 70, 30);
+	return self;
+}
+
+
 @end

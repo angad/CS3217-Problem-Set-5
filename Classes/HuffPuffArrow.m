@@ -18,7 +18,7 @@
 	image = [UIImage imageNamed:img];
 	view = [[UIImageView alloc] initWithImage:image];
 	
-	view.frame = CGRectMake(200, 300, 74, 430);
+	view.frame = CGRectMake(250, 480, 74, 430);
 	view.userInteractionEnabled = YES;
 	
 	pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(directionArrow:)];

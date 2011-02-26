@@ -10,23 +10,24 @@
 
 @implementation HuffPuffModel
 
-@synthesize xy, width, height, frame, angle, scale, mass, transform, path, inGamearea;
+@synthesize transform, path, frame;
 
 - (id)initWithCoder:(NSCoder *)decoder
 {
+	
 	self = [super init];
 	if (self)
 	{
 		frame = [decoder decodeCGRectForKey:@"frame"];
 		transform = [decoder decodeCGAffineTransformForKey:@"transform"];
-		path = [decoder decodeObjectForKey:@"path"];
+		path = [[decoder decodeObjectForKey:@"path"] retain];
 	}
-	
 	return self;
 }
 
 - (void)encodeWithCoder:(NSCoder *)coder
 {
+	NSLog(@"encoding");
 	[coder encodeCGRect:frame forKey:@"frame"];
 	[coder encodeObject:path forKey:@"path"];
 	[coder encodeCGAffineTransform:transform forKey:@"transform"];

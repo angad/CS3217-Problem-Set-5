@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HuffPuffGameObject.h"
 
-
-@interface HuffPuffScore : NSObject {
+@interface HuffPuffScore : HuffPuffGameObject {
 
 }
 

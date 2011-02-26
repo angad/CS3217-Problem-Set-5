@@ -17,6 +17,7 @@
 #import "HuffPuffArrow.h"
 #import "HuffPuffPower.h"
 #import "HuffPuffPigSmoke.h"
+#import "HuffPuffScore.h"
 #import "HuffPuffPigHealth.h"
 #import "HuffPuffStorage.h"
 
@@ -25,37 +26,17 @@
 	CADisplayLink *displayLink;
 	
 	HuffPuffPig *pig;
-	HuffPuffWolf *wolf;
 	HuffPuffBlock *block;
+	HuffPuffScore *scoreImg;
 	
 	UIView *palette;
 	HuffPuffModel *pigM;
 	HuffPuffModel *wolfM;
 	HuffPuffModel *block1M;
 	HuffPuffStorage *storage;
+
+	UILabel *scoreLabel;
 }
-
-
-//Static variables to maintain game-wide information
-static int score;
-static double pigHealth;
-static int pigDead;
-static int blocksCount;
-static double strawStrength;
-static double woodStrength;
-static double metalStrength;
-static double stoneStrength;
-
-static UIView *gamearea;
-static HuffPuffPower *power;
-static HuffPuffWind *wind;
-static HuffPuffPigSmoke *smoke;
-static HuffPuffPigHealth *health;
-
-static HuffPuffArrow *arrow;
-static ChipmunkSpace *space;
-static NSMutableArray *models;
-static NSMutableArray *objects;
 
 -(id)initWithGameArea:(UIView *)g Palette:(UIView *)p;
 +(void)addObject:(id)newObject;

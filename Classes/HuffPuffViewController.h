@@ -16,7 +16,13 @@
 @interface HuffPuffViewController : UIViewController {
 	IBOutlet UIScrollView *gamearea;
 	IBOutlet UIView *palette;
-
+	IBOutlet UIButton *start;
+	IBOutlet UIButton *reset;
+	IBOutlet UIButton *load;
+	IBOutlet UIButton *save;
+	
+	IBOutlet UILabel *score;
+	
 	GameController *gc;
 }
 

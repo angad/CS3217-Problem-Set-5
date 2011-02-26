@@ -13,25 +13,25 @@
 	CGAffineTransform transform;
 	NSString *path;
 
-	CGPoint xy;
-	double angle;
-	double scale;
-	double height;
-	double width;
-	double mass;
-
-	BOOL inGamearea;
+	//CGPoint xy;
+//	double angle;
+//	double scale;
+//	double height;
+//	double width;
+//	double mass;
+//	
+//	BOOL inGamearea;
 }
 
-@property CGPoint xy;
-@property double angle;
-@property double scale;
-@property double height;
-@property double width;
-@property double mass;
-@property CGRect frame;
-@property CGAffineTransform transform;
-@property BOOL inGamearea;
-@property NSString *path;
+//@property (readonly) CGPoint xy;
+//@property (readonly) double angle;
+//@property (readonly) double scale;
+//@property (readonly) double height;
+//@property (readonly) double width;
+//@property (readonly) double mass;
+//@property (readonly) BOOL inGamearea;
+@property (assign) NSString *path;
+@property (assign) CGRect frame;
+@property (assign) CGAffineTransform transform;
 
 @end

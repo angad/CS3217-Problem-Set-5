@@ -35,12 +35,11 @@
 		[powerSprite addObject:[UIImage imageWithCGImage:partOfImageAsCG]];
 	}
 	
-	view.frame = CGRectMake(200, 550, 500, 21);
+	view.frame = CGRectMake(200, 680, 500, 21);
 	view.userInteractionEnabled = YES;
 	
 	view.animationImages = powerSprite;
 	view.animationDuration = 3;
-	//view.animationRepeatCount = 1;
 
 	x = 1;  //Factor with which to increase or decrease the power
 	

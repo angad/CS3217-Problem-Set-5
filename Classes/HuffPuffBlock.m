@@ -38,7 +38,6 @@
 	//updating the model
 	[model setFrame:view.frame];
 	[model setTransform:view.transform];
-	[model setInGamearea:NO];
 	[model setPath:img];
 	
 	counter = 1;
@@ -89,7 +88,6 @@
 			CGPoint newOrigin = [palette convertPoint:gesture.view.frame.origin toView:gamearea];
 			gesture.view.frame = CGRectMake(newOrigin.x, newOrigin.y, 30, 130);
 			[gamearea addSubview:gesture.view];
-			[model setInGamearea:YES];
 			//regenerating the block in the palette
 			HuffPuffBlock *newBlock = [[HuffPuffBlock alloc] initPath:@"block1.png" gamearea:gamearea palette:palette];
 			[palette addSubview:[newBlock view]];
@@ -134,7 +132,7 @@
 							  [NSString stringWithFormat:@"block4.png"],nil];
 	UIImage *imag = [UIImage imageNamed:[images objectAtIndex:counter]];
 	//NSLog(@"Tapped %@", [images objectAtIndex:counter]);
-	
+	[model setPath:view.tag];
 	[view setTag:[images objectAtIndex:counter]];
 	counter++;
 	if (counter == 4) {

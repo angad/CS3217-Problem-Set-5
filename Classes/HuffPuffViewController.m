@@ -11,7 +11,7 @@
 @implementation HuffPuffViewController
 
 const CGFloat backgroundWidth = 1600.0; 
-const CGFloat backgroundHeight = 480.0; 
+const CGFloat backgroundHeight = 668.0; 
 const CGFloat groundWidth = 1600; 
 const CGFloat groundHeight = 100.0;
 
@@ -37,7 +37,7 @@ const CGFloat groundHeight = 100.0;
 -(void)envSetup{
 	
 	//load the images into UIImage objects
-	UIImage *bgImage = [UIImage imageNamed:@"background.png"]; 
+	UIImage *bgImage = [UIImage imageNamed:@"back.png"]; 
 	UIImage *groundImage = [UIImage imageNamed:@"ground.png"];
 	
 	//place each of them in an UIImageView 
@@ -74,7 +74,7 @@ const CGFloat groundHeight = 100.0;
 	[self envSetup];
 	
 //------Game Objects initialization------//
-	gc = [[GameController alloc]initWithGameArea:gamearea Palette:palette];
+	gc = [[GameController alloc]initWithGameArea:gamearea Palette:palette score:score];
 }
 
 -(void)save{
@@ -87,9 +87,33 @@ const CGFloat groundHeight = 100.0;
 
 -(void)start{	
 	[palette removeFromSuperview];
+	[start removeFromSuperview];
+	[load removeFromSuperview];
+	[reset removeFromSuperview];
+	[save removeFromSuperview];
+	[gamearea setFrame:CGRectMake(0, 0, 1500, 768)];
 	[gc viewDidAppear:TRUE];
 	[gc gameStart];
+
+	//Game duration
+	[NSTimer scheduledTimerWithTimeInterval:60.0
+									 target:self
+								   selector:@selector(gameOver:)
+								   userInfo:nil
+									repeats:NO];
 	[gc removeAllGestureRecognizers];
+}
+
+-(void)gameOver:(NSTimer *)timer{
+	
+	//Tried adding the game over image but doesnt work :(
+	
+	//So at the end of the game the screen just goes blank
+	UIImage *end = [UIImage imageNamed:@"gameover.png"];
+	UIImageView *gameOverScreen = [[UIImageView alloc] initWithImage:end];
+	gameOverScreen.frame = CGRectMake(50,50,100,200);
+	[gamearea setHidden:TRUE];
+	[[self view] addSubview:gameOverScreen];
 }
 
 -(void)reset{

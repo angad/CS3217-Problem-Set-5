@@ -15,6 +15,10 @@
 		2899E5220DE3E06400AC0155 /* HuffPuffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HuffPuffViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* HuffPuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HuffPuffViewController.m */; };
+		2C042577131921AD0001EA23 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C042576131921AD0001EA23 /* back.png */; };
+		2C0425B1131925DF0001EA23 /* gamover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0425B0131925DF0001EA23 /* gamover.png */; };
+		2C0425CE131927F50001EA23 /* gamover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0425CD131927F50001EA23 /* gamover.jpg */; };
+		2C04261713192DD70001EA23 /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C04261613192DD70001EA23 /* score.png */; };
 		2C19FF6513167175009A5D43 /* HuffPuffArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C19FF6413167175009A5D43 /* HuffPuffArrow.m */; };
 		2C206F8F1315808500937B56 /* breath-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8A1315808500937B56 /* breath-bar.png */; };
 		2C206F901315808500937B56 /* direction-arorw-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C206F8B1315808500937B56 /* direction-arorw-selected.png */; };
@@ -64,6 +68,10 @@
 		28D7ACF60DDB3853001CB0EB /* HuffPuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* HuffPuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C042576131921AD0001EA23 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		2C0425B0131925DF0001EA23 /* gamover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamover.png; sourceTree = "<group>"; };
+		2C0425CD131927F50001EA23 /* gamover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gamover.jpg; sourceTree = "<group>"; };
+		2C04261613192DD70001EA23 /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
 		2C19FF6313167175009A5D43 /* HuffPuffArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuffPuffArrow.h; sourceTree = "<group>"; };
 		2C19FF6413167175009A5D43 /* HuffPuffArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuffPuffArrow.m; sourceTree = "<group>"; };
 		2C206F8A1315808500937B56 /* breath-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "breath-bar.png"; sourceTree = "<group>"; };
@@ -372,7 +380,11 @@
 				2C8B21021318280A00C79574 /* health.png */,
 				2C8B1F2213178B1400C79574 /* cloud1.png */,
 				2C8B1F2313178B1400C79574 /* cloud2.png */,
+				2C0425B0131925DF0001EA23 /* gamover.png */,
+				2C0425CD131927F50001EA23 /* gamover.jpg */,
 				2C8B1F2413178B1400C79574 /* cloud3.png */,
+				2C042576131921AD0001EA23 /* back.png */,
+				2C04261613192DD70001EA23 /* score.png */,
 				2C8B1F2513178B1400C79574 /* font.png */,
 				2C8B1F2613178B1400C79574 /* heart.png */,
 				2C8B1F2713178B1400C79574 /* smoke.png */,
@@ -466,6 +478,10 @@
 				2C206F921315808500937B56 /* direction-degree.png in Resources */,
 				2C206F931315808500937B56 /* windblow.png in Resources */,
 				2C8B21031318280A00C79574 /* health.png in Resources */,
+				2C042577131921AD0001EA23 /* back.png in Resources */,
+				2C0425B1131925DF0001EA23 /* gamover.png in Resources */,
+				2C0425CE131927F50001EA23 /* gamover.jpg in Resources */,
+				2C04261713192DD70001EA23 /* score.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

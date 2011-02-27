@@ -27,7 +27,6 @@
 
 - (void)encodeWithCoder:(NSCoder *)coder
 {
-	NSLog(@"encoding");
 	[coder encodeCGRect:frame forKey:@"frame"];
 	[coder encodeObject:path forKey:@"path"];
 	[coder encodeCGAffineTransform:transform forKey:@"transform"];

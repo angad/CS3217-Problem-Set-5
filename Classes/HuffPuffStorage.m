@@ -26,7 +26,6 @@
 	BOOL success = [data writeToFile:filePath atomically:YES]; 
 	[archiver release];
 	[data release];
-	NSLog(@"%i", success);
 	return success;
 }
 
@@ -39,9 +38,17 @@
 	NSString *filePath = [rootPath stringByAppendingPathComponent:file];
 
 	data = [NSData dataWithContentsOfFile:filePath];
+	if (!data) {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Arrgghh! You did not save a file before starting the game! There is no level to reload!"
+														message:nil
+													   delegate:nil
+											  cancelButtonTitle:@"OK"
+											  otherButtonTitles:nil];
+		[alert autorelease];
+		[alert show];
+	}
 	unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
 
-	// Customize unarchiver here
 	models = [unarchiver decodeObject];
 	[unarchiver finishDecoding];
 	[unarchiver release];

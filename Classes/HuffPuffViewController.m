@@ -75,14 +75,50 @@ const CGFloat groundHeight = 100.0;
 	
 //------Game Objects initialization------//
 	gc = [[GameController alloc]initWithGameArea:gamearea Palette:palette score:score];
+	
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"First, drag and drop the elements in the gamearea. Type a name for the level. Press save. Now this level will be reloaded everytime your pig dies. When I have more time, I will design more levels, save them and load them when the pig dies. Now Press the Start button and happy playing!"
+													message:nil
+												   delegate:nil
+										  cancelButtonTitle:@"OK"
+										  otherButtonTitles:nil];
+	[alert autorelease];
+	[alert show];
+	
 }
 
 -(void)save{
-	[gc saveModel];
+	NSString *file = fileName.text;
+	if ([file isEqual:@""]) {
+	
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Please imput a file name"
+														message:nil
+													   delegate:nil
+											  cancelButtonTitle:@"OK"
+											  otherButtonTitles:nil];
+		[alert autorelease];
+		[alert show];
+	}
+	else {
+		[gc setLevel:file];
+		[gc saveModel:file];
+	}
 }
 
 -(void)load{
-	[gc loadModel];
+	NSString *file = fileName.text;
+	if ([file isEqual:@""]) {
+		
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Please imput a file name"
+														message:nil
+													   delegate:nil
+											  cancelButtonTitle:@"OK"
+											  otherButtonTitles:nil];
+		[alert autorelease];
+		[alert show];
+	}
+	else {
+		[gc loadModel:file];
+	}
 }
 
 -(void)start{	

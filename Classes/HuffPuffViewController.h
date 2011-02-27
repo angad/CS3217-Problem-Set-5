@@ -23,6 +23,8 @@
 	
 	IBOutlet UILabel *score;
 	
+	IBOutlet UITextField *fileName;
+	
 	GameController *gc;
 }
 

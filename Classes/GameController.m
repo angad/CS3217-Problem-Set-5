@@ -12,7 +12,9 @@
 @implementation GameController
 
 static NSString *borderType = @"borderType";
+NSString *level;
 static int score;
+static int windReset = 0;
 static double pigHealth;
 static int pigDead;
 static int blocksCount;
@@ -110,6 +112,15 @@ static NSMutableArray *objects;
 					  separate:@selector(separateCollision:space:)
 	 ];
 	
+	//Collision handler for wind and border
+	[space addCollisionHandler:self
+						 typeA:[HuffPuffWind class] typeB:borderType
+						 begin:@selector(beginCollision:space:)
+					  preSolve:nil
+					 postSolve:@selector(windPassesThroughBorder:space:)
+					  separate:@selector(separateCollision:space:)
+	 ];
+	
 	for (i=0; i<objects.count; i++) {
 		
 		//Adding Collision Handlers for Pig and all types of blocks
@@ -141,9 +152,19 @@ static NSMutableArray *objects;
 	[gamearea addSubview:[power view]];
 	
 	[wolf addTap];
+	[self addObjectsSpace];
+}
+
+-(void)addObjectsSpace{
+	int i;
 	for (i=0; i<objects.count; i++) {
-		[space add:[objects objectAtIndex:i]];
+		[space addPostStepCallback:self selector:@selector(addObjToSpace:) key:[objects objectAtIndex:i]];
 	}
+}
+
+-(void)addObjToSpace:(id)obj
+{
+	[space add:obj];
 }
 
 +(void)addObject:(id)newObject{
@@ -179,7 +200,7 @@ static NSMutableArray *objects;
 
 	//Add wind to physics engine
 	[space add:wind];
-	
+	windReset = 0;
 	//Add wind to view
 	[gamearea addSubview:[wind view]];
 	
@@ -197,9 +218,12 @@ static NSMutableArray *objects;
 + (void)windStopped:(NSTimer*)theTimer
 {
 	//Removes wind from physics engine and view
-	[[wind view] removeFromSuperview];
-	[space remove:wind];
-	[wolf addTap];
+	if (windReset!=1) {
+		[[wind view] removeFromSuperview];
+		[space remove:wind];
+		[wolf addTap];
+		windReset = 0;
+	}
 }
 
 -(void)updateHealth{
@@ -213,8 +237,7 @@ static NSMutableArray *objects;
 	for (i=0; i<objects.count; i++) {
 		if([[[objects objectAtIndex:i] shape] isEqual:shape])
 		{
-			NSLog(@"removing block");
-			[space remove:[objects objectAtIndex:i]];
+			[space addPostStepRemoval:[objects objectAtIndex:i]];
 			[[[objects objectAtIndex:i] view] removeFromSuperview];
 			[objects removeObjectAtIndex:i];
 		}
@@ -236,12 +259,13 @@ static NSMutableArray *objects;
 	if (impulse > pigHealth) {
 		score++;
 		[self updateScore];
-		[space remove:pig];
+		//[space addPostStepCallback:self selector:@selector(removeObjFromSpace:) key:pig];
+		[space addPostStepRemoval:pig];
 		[[pig view] removeFromSuperview];
 		pigDead = 1;
 		[NSTimer scheduledTimerWithTimeInterval:1.0
 										 target:self
-									   selector:@selector(pigRestore:)
+									   selector:@selector(nextLevel:)
 									   userInfo:nil
 										repeats:NO];
 		[self updateHealth];
@@ -250,6 +274,30 @@ static NSMutableArray *objects;
 	{
 		pigHealth -=impulse;
 		[self updateHealth];
+	}
+}
+
+-(void)removeObjFromSpace:(id)obj
+{
+	[space remove:obj];
+}
+
+-(void)windPassesThroughBorder:(cpArbiter*)arbiter space:(ChipmunkSpace*)space{
+	
+	//When wind collides with the border, it should die
+	if(!cpArbiterIsFirstContact(arbiter)) return;
+	cpFloat impulse = cpvlength(cpArbiterTotalImpulse(arbiter));
+	
+	cpShape *a, *b;
+	cpArbiterGetShapes(arbiter, &a, &b);
+
+	NSMutableString *type = b->collision_type;
+	
+	if ([type isEqual:borderType]) {
+		[[wind view] removeFromSuperview];
+		[space addPostStepRemoval:wind];
+		[wolf addTap];
+		windReset = 1;
 	}
 }
 
@@ -263,12 +311,12 @@ static NSMutableArray *objects;
 	if (impulse > pigHealth) {
 		score++;
 		[self updateScore];
-		[space remove:pig];
+		[space addPostStepRemoval:pig];
 		[[pig view] removeFromSuperview];
 		pigDead = 1;
 		[NSTimer scheduledTimerWithTimeInterval:1.0
 										 target:self
-									   selector:@selector(pigRestore:)
+									   selector:@selector(nextLevel:)
 									   userInfo:nil
 										repeats:NO];
 		[self updateHealth];
@@ -303,8 +351,6 @@ static NSMutableArray *objects;
 	if(!cpArbiterIsFirstContact(arbiter)) return;
 
 	cpFloat impulse = cpvlength(cpArbiterTotalImpulse(arbiter));
-	NSLog(@"%f", impulse);
-
 	cpShape *a, *b;
 	cpArbiterGetShapes(arbiter, &a, &b);
 	
@@ -352,25 +398,79 @@ static NSMutableArray *objects;
 	}
 }
 
--(double)generateRandom:(double)max : (double)min{
-	return (rand() * (max - min + 1)) + min;
-}
+-(void)nextLevel:(NSTimer*)timer{
+	//Loads the next level for the game
+	//[space remove:pig];
 
--(void)pigRestore:(NSTimer*)timer{
-	//Restore a dead pig for timed game
-	double max_w = gamearea.bounds.origin.x;
-	double min_w = gamearea.bounds.size.width;
-	double max_h = gamearea.bounds.origin.y;
-	double min_h = gamearea.bounds.size.height;
-	double _x = [self generateRandom:max_w:min_w];
-	double _y = [self generateRandom:max_h:min_h];
-	[[pig view] setCenter:CGPointMake(_x,_y)];
-	[gamearea addSubview:[pig view]];
-	[space add:pig];
+	//I am currently re-loading the level that the user just created.
+	//When I have more time, I will design levels in the level designer,
+	//and save the levels and their names in an NSArray
+	//then load the models based on the names in the NSArray whenever the pig dies
+	[self loadNextLevel:level];
+	
+	//Resetting the poor pig
 	pigDead = 0;
 	pigHealth = 800;
 	[self updateHealth];
 }
+
+
+-(void)loadNextLevel:(NSString*)fileName
+{
+	models = [HuffPuffStorage loadFile:fileName];
+	int i;
+	HuffPuffModel *model;
+	
+	for (i=0; i<objects.count; i++)
+	{
+		if (![[[objects objectAtIndex:i] class] isEqual:[HuffPuffPig class]]) {
+			[[[objects objectAtIndex:i] view] removeFromSuperview];
+			[space addPostStepRemoval:[objects objectAtIndex:i]];
+		}
+	}
+	
+	[objects release];
+	objects = [[NSMutableArray alloc] init];
+	[objects addObject:wolf];
+	[gamearea addSubview:[wolf view]];
+	
+	for (i=0; i<models.count; i++) 
+	{
+		model = [models objectAtIndex:i];
+		
+		if ([model.path isEqual:@"wolfs.png"]) {
+			continue;
+		}
+		
+		if ([model.path isEqual:@"pig.png"]) 
+		{
+			[pig release];
+			pig = [[HuffPuffPig alloc] initPath:model.path gamearea:gamearea palette:palette];
+			pig.view.frame = model.frame;
+			[[pig body] setPos:cpv(pig.view.center.x, pig.view.center.y)];
+			pig.view.transform = model.transform;
+			[gamearea addSubview:[pig view]];
+			[objects addObject:pig];
+		}
+		else 
+		{
+			HuffPuffBlock* newBlock = [[HuffPuffBlock alloc] initPath:model.path gamearea:gamearea palette:palette];
+			newBlock.view.frame = model.frame;
+			[[newBlock body] setPos:cpv(newBlock.view.center.x, newBlock.view.center.y)];
+			newBlock.view.transform = model.transform;
+			[gamearea addSubview:[newBlock view]];
+			[objects addObject:newBlock];
+		}
+	}
+	[self addObjectsSpace];
+}
+
+-(void)setLevel:(NSString*)l
+{
+	level = l;
+	[level retain];
+}
+
 
 - (void)separateCollision:(cpArbiter*)arbiter space:(ChipmunkSpace*)space {
 	CHIPMUNK_ARBITER_GET_SHAPES(arbiter, buttonShape, border);
@@ -397,7 +497,6 @@ static NSMutableArray *objects;
 	smoke.view.frame = pig.view.frame;
 }
 
-
 //Level Designer Button responders
 -(void)reset{
 	int i;
@@ -409,36 +508,30 @@ static NSMutableArray *objects;
 	objects = [[NSMutableArray alloc] init];
 }
 
--(void)saveModel{
+-(void)saveModel:(NSString*)fileName
+{
 	int i;
 	HuffPuffModel *model;
+	models = [[NSMutableArray alloc] init];
 	for (i=0; i<objects.count; i++) 
 	{
 		model = [[objects objectAtIndex:i]getModel];
 		[models addObject: model];
 	}
 	
-	NSString *fileName = @"save";
-	BOOL a = [HuffPuffStorage writeToFile:models:fileName];
-	NSLog(@"%i", a);
+	[HuffPuffStorage writeToFile:models:fileName];
 }
 
--(void)loadModel
+-(void)loadModel:(NSString*)fileName
 {
-	NSString *fileName = @"save";
 	models = [HuffPuffStorage loadFile:fileName];
 	int i;
-	NSLog(@"%i", models.count);
 	HuffPuffModel *model;
 	
-	id *object;
-	for (i=0; i<objects.count; i++) 
+	for (i=0; i<objects.count; i++)
 	{
-		if (![[[objects objectAtIndex:i] class] isEqual:[HuffPuffWolf class]])
-		{
-			[[[objects objectAtIndex:i] view] removeFromSuperview];
-			[space remove:[objects objectAtIndex:i]];
-		}
+		[[[objects objectAtIndex:i] view] removeFromSuperview];
+		[space addPostStepRemoval:[objects objectAtIndex:i]];
 	}
 	
 	[objects release];
@@ -448,6 +541,10 @@ static NSMutableArray *objects;
 	for (i=0; i<models.count; i++) 
 	{
 		model = [models objectAtIndex:i];
+		
+		if ([model.path isEqual:@"wolfs.png"]) {
+			continue;
+		}
 		
 		if ([model.path isEqual:@"pig.png"]) 
 		{
@@ -459,14 +556,8 @@ static NSMutableArray *objects;
 			[gamearea addSubview:[pig view]];
 			[objects addObject:pig];
 		}
-		else if ([model.path isEqual:@"wolf.png"]) {
-		//	[wolf release];
-		//	wolf = [[HuffPuffWolf alloc] initPath:model.path gamearea:gamearea palette:palette];
-		//	pig.view.transform = model.transform;
-		//	[gamearea addSubview:[wolf view]];
-		}
-
-		else {
+		else 
+		{
 			HuffPuffBlock* newBlock = [[HuffPuffBlock alloc] initPath:model.path gamearea:gamearea palette:palette];
 			newBlock.view.frame = model.frame;
 			[[newBlock body] setPos:cpv(newBlock.view.center.x, newBlock.view.center.y)];
@@ -475,6 +566,7 @@ static NSMutableArray *objects;
 			[objects addObject:newBlock];
 		}
 	}
+	[self addObjectsSpace];
 }
 
 @end
